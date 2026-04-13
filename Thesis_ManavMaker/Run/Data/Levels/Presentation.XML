@@ -1,0 +1,125 @@
+<Level>
+    <Grid>
+        <Tile index="4125" definition="Ground"/>
+        <Tile index="4126" definition="Ground"/>
+        <Tile index="4127" definition="Ground"/>
+        <Tile index="4136" definition="Ground"/>
+        <Tile index="4137" definition="Ground"/>
+        <Tile index="4249" definition="Ground"/>
+        <Tile index="4250" definition="Ground"/>
+        <Tile index="4251" definition="Ground"/>
+        <Tile index="4252" definition="Ground"/>
+        <Tile index="4253" definition="Ground"/>
+        <Tile index="4265" definition="Ground"/>
+        <Tile index="4266" definition="Ground"/>
+        <Tile index="4267" definition="Ground"/>
+        <Tile index="4268" definition="Ground"/>
+        <Tile index="4764" definition="Spikes"/>
+        <Tile index="4765" definition="Spikes"/>
+        <Tile index="4786" definition="Ground"/>
+        <Tile index="4792" definition="Ground"/>
+        <Tile index="4799" definition="Spikes"/>
+        <Tile index="4803" definition="Ground"/>
+        <Tile index="4804" definition="Spikes"/>
+        <Tile index="4805" definition="Spikes"/>
+        <Tile index="4806" definition="Ground"/>
+        <Tile index="4892" definition="Spikes"/>
+        <Tile index="4893" definition="Spikes"/>
+        <Tile index="4920" definition="Ground"/>
+        <Tile index="4927" definition="Spikes"/>
+        <Tile index="4931" definition="Ground"/>
+        <Tile index="4934" definition="Ground"/>
+        <Tile index="5020" definition="Spikes"/>
+        <Tile index="5021" definition="Spikes"/>
+        <Tile index="5148" definition="Spikes"/>
+        <Tile index="5149" definition="Spikes"/>
+        <Tile index="5276" definition="Spikes"/>
+        <Tile index="5277" definition="Spikes"/>
+        <Tile index="5404" definition="Spikes"/>
+        <Tile index="5405" definition="Spikes"/>
+        <Tile index="5532" definition="Spikes"/>
+        <Tile index="5533" definition="Spikes"/>
+        <Tile index="5660" definition="Spikes"/>
+        <Tile index="5661" definition="Spikes"/>
+        <Tile index="5788" definition="Spikes"/>
+        <Tile index="5789" definition="Spikes"/>
+        <Tile index="5916" definition="Spikes"/>
+        <Tile index="5917" definition="Spikes"/>
+        <Tile index="6044" definition="Spikes"/>
+        <Tile index="6045" definition="Spikes"/>
+        <Tile index="6172" definition="Spikes"/>
+        <Tile index="6173" definition="Spikes"/>
+        <Tile index="6300" definition="Spikes"/>
+        <Tile index="6301" definition="Spikes"/>
+        <Tile index="6428" definition="Spikes"/>
+        <Tile index="6429" definition="Spikes"/>
+        <Tile index="6556" definition="Spikes"/>
+        <Tile index="6557" definition="Spikes"/>
+    </Grid>
+    <SpawnData>
+        <EntitySpawn type="5" pos="53.500000, 36.000000" id="19333168" targetWaypoint="-1"/>
+        <EntitySpawn type="3" pos="83.500000, 37.000000" id="19595313" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="51.500000, 36.000000" id="20185139" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="49.500000, 36.000000" id="20512821" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="47.500000, 36.000000" id="21037111" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="43.500000, 36.000000" id="22216763" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="45.500000, 36.000000" id="21626937" targetWaypoint="-1"/>
+        <EntitySpawn type="1" pos="53.500000, 37.000000" id="23855167" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="41.500000, 36.000000" id="23396413" targetWaypoint="-1"/>
+        <EntitySpawn type="1" pos="59.500000, 37.000000" id="23593022" targetWaypoint="-1"/>
+        <EntitySpawn type="4" pos="40.500000, 33.000000" id="196608" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="42.500000, 36.000000" id="22544444" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="44.500000, 36.000000" id="21889082" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="46.500000, 36.000000" id="21299256" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="48.500000, 36.000000" id="20709430" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="50.500000, 36.000000" id="20381748" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="52.500000, 36.000000" id="19988530" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="61.500000, 36.000000" id="13959185" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="62.500000, 36.000000" id="14024722" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="63.500000, 36.000000" id="14090259" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="64.500000, 36.000000" id="14155796" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="65.500000, 36.000000" id="14221333" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="66.500000, 36.000000" id="14286870" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="67.500000, 36.000000" id="14352407" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="68.500000, 36.000000" id="14417944" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="69.500000, 36.000000" id="14483481" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="70.500000, 36.000000" id="14549018" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="71.500000, 36.000000" id="14614555" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="72.500000, 36.000000" id="14680092" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="73.500000, 36.000000" id="14745629" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="74.500000, 36.000000" id="14811166" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="75.500000, 36.000000" id="14876703" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="76.500000, 36.000000" id="14942240" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="77.500000, 36.000000" id="15007777" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="78.500000, 36.000000" id="15073314" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="79.500000, 36.000000" id="15138851" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="80.500000, 36.000000" id="15204388" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="81.500000, 36.000000" id="15269925" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="82.500000, 36.000000" id="15335462" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="83.500000, 36.000000" id="15400999" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="84.500000, 36.000000" id="15466536" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="59.500000, 36.000000" id="15925289" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="60.500000, 36.000000" id="16515114" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="58.500000, 36.000000" id="16908331" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="57.500000, 36.000000" id="17104940" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="56.500000, 36.000000" id="17629229" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="55.500000, 36.000000" id="18087982" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="54.500000, 36.000000" id="18874415" targetWaypoint="-1"/>
+        <EntitySpawn type="10" pos="29.500000, 34.000000" id="2097159" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="32.500000, 32.000000" id="2818057" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="33.500000, 32.000000" id="3145738" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="34.500000, 32.000000" id="3670027" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="34.500000, 33.000000" id="1376261" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="35.500000, 32.000000" id="3932172" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="35.500000, 33.000000" id="1769478" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="36.500000, 32.000000" id="4259853" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="36.500000, 33.000000" id="1179652" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="37.500000, 32.000000" id="4784142" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="37.500000, 33.000000" id="917507" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="38.500000, 32.000000" id="6029327" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="38.500000, 33.000000" id="655362" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="39.500000, 32.000000" id="7471120" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="39.500000, 33.000000" id="458753" targetWaypoint="-1"/>
+        <EntitySpawn type="0" pos="26.500000, 34.000000" id="2359304" targetWaypoint="-1"/>
+    </SpawnData>
+</Level>

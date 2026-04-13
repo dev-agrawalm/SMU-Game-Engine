@@ -1,0 +1,54 @@
+<Level>
+    <Grid>
+        <Tile index="3635" definition="Ground"/>
+        <Tile index="3636" definition="Ground"/>
+        <Tile index="3637" definition="Ground"/>
+        <Tile index="3638" definition="Ground"/>
+        <Tile index="3639" definition="Ground"/>
+        <Tile index="3640" definition="Ground"/>
+        <Tile index="3641" definition="Ground"/>
+        <Tile index="3642" definition="Ground"/>
+        <Tile index="3643" definition="Ground"/>
+        <Tile index="3644" definition="Ground"/>
+        <Tile index="3645" definition="Ground"/>
+        <Tile index="3646" definition="Ground"/>
+        <Tile index="3647" definition="Ground"/>
+        <Tile index="3648" definition="Ground"/>
+        <Tile index="3649" definition="Ground"/>
+        <Tile index="3650" definition="Ground"/>
+        <Tile index="3651" definition="Ground"/>
+        <Tile index="3779" definition="Ground"/>
+        <Tile index="3780" definition="Ground"/>
+        <Tile index="3781" definition="Ground"/>
+        <Tile index="3782" definition="Ground"/>
+        <Tile index="3783" definition="Ground"/>
+        <Tile index="3784" definition="Ground"/>
+        <Tile index="3785" definition="Ground"/>
+        <Tile index="3786" definition="Ground"/>
+        <Tile index="3787" definition="Ground"/>
+        <Tile index="3788" definition="Ground"/>
+        <Tile index="3789" definition="Ground"/>
+        <Tile index="3917" definition="Ground"/>
+        <Tile index="3918" definition="Ground"/>
+        <Tile index="3919" definition="Ground"/>
+        <Tile index="3920" definition="Ground"/>
+        <Tile index="3921" definition="Ground"/>
+        <Tile index="3922" definition="Ground"/>
+        <Tile index="3923" definition="Ground"/>
+    </Grid>
+    <SpawnData>
+        <EntitySpawn type="6" pos="64.500000, 33.000000"/>
+        <EntitySpawn type="6" pos="64.500000, 32.000000"/>
+        <EntitySpawn type="6" pos="64.500000, 31.000000"/>
+        <EntitySpawn type="6" pos="64.500000, 30.000000"/>
+        <EntitySpawn type="6" pos="64.500000, 29.000000"/>
+        <EntitySpawn type="5" pos="58.500000, 33.000000"/>
+        <EntitySpawn type="5" pos="58.500000, 32.000000"/>
+        <EntitySpawn type="5" pos="58.500000, 31.000000"/>
+        <EntitySpawn type="5" pos="58.500000, 30.000000"/>
+        <EntitySpawn type="5" pos="58.500000, 29.000000"/>
+        <EntitySpawn type="4" pos="55.500000, 32.000000"/>
+        <EntitySpawn type="4" pos="61.500000, 32.000000"/>
+        <EntitySpawn type="0" pos="52.500000, 30.000000"/>
+    </SpawnData>
+</Level>

@@ -1,0 +1,9 @@
+<GameConfig
+	
+	windowAspect		="2.0"
+	windowTitle			="Protogame3D"
+	uiCamOrthoSizeX		="1800.0"
+	uiCamOrthoSizeY		="900.0"
+	worldCamOrthoSizeX	="2.0"
+	worldCamOrthoSizeY	="2.0"
+/>

@@ -1,0 +1,85 @@
+<MapDefinitions>
+	<MapDefinition name ="map1"
+		mapImageName			= "Data/Images/Maps/Maze.png"
+		mapImageOffset			= "6,8"
+		gridDimensions			= "25,25"
+		entryPointGridCoords	= "1,1"
+		exitPointGridCoords		= "23,23"
+		
+		numOfEnemyLeos			= "2"
+		numOfEnemyAries			= "5"
+		numOfEnemyScorpios		= "3"
+		numOfEnemyCapricorns	= "2"
+		numOfEnemySagittarius	= "1"
+
+		borderTileType			= "GREY_BRICK_WALL"
+		fillTileType			= "SHORT_GRASS"
+		
+		startSafeZoneSqLength	= "5"
+		startSafeZoneTileType	= "LONG_GRASS"
+
+		endSafeZoneSqLength		= "7"
+		endSafeZoneTileType		= "SHORT_GRASS"
+
+		numWorms1				= "15"
+		worm1Length				= "8"
+		worm1TileType			= "WATER"
+
+		numWorms2				= "0"
+		worm2Length				= "4"
+		worm2TileType			= ""
+	/>
+	<MapDefinition name ="map2"
+		gridDimensions			= "20,16"
+		entryPointGridCoords	= "1,1"
+		exitPointGridCoords		= "18,14"
+
+		numOfEnemyLeos			= "0"
+		numOfEnemyAries			= "5"
+		numOfEnemyScorpios		= "2"
+		numOfEnemyCapricorns	= "0"
+
+		borderTileType			= "RED_BRICK_WALL"
+		fillTileType			= "SHORT_GRASS"
+
+		startSafeZoneSqLength	= "5"
+		startSafeZoneTileType	= "PAVEMENT"
+
+		endSafeZoneSqLength		= "7"
+		endSafeZoneTileType		= "PAVEMENT"
+
+		numWorms1				= "7"
+		worm1Length				= "8"
+		worm1TileType			= "WATER"
+
+		numWorms2				= "0"
+		worm2Length				= "0"
+		worm2TileType			= "MUD"
+	/>
+	<MapDefinition name ="map3"
+		gridDimensions			= "10,10"
+		entryPointGridCoords	= "1,1"
+		exitPointGridCoords		= "8,8"
+
+		numOfEnemyLeos			= "0"
+		numOfEnemyAries			= "0"
+		numOfEnemyScorpios		= "4"
+
+		borderTileType			= "RED_BRICK_WALL"
+		fillTileType			= "LONG_GRASS"
+
+		startSafeZoneSqLength	= "3"
+		startSafeZoneTileType	= "LEAVES"
+
+		endSafeZoneSqLength		= "3"
+		endSafeZoneTileType		= "SAND"
+
+		numWorms1				= "0"
+		worm1Length				= "0"
+		worm1TileType			= ""
+
+		numWorms2				= "5"
+		worm2Length				= "3"
+		worm2TileType			= ""
+	/>
+</MapDefinitions>

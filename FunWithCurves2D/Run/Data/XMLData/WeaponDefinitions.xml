@@ -1,0 +1,43 @@
+<!--Weapon Types
+	Single Shot = 0,     // Shoots a single bullet forward
+	Multi Shot = 1		// Shoots multiple shots forward. Each shot is deviated from the weapon's forward by a certain angle defined by total number of shots
+-->
+
+<WeaponDefinitions>
+	<Weapon
+		name = "Blaster"
+		type = "0"
+		fireRate = "0.4"
+		bullet = "blasterBullet"
+	/>
+	<Weapon
+		name = "Shotgun"
+		type = "1"
+		fireRate = "0.6"
+		bullet = "shotgunBullet"
+		numBullets = "5"
+		attackConeAngleDegrees ="30.0"
+	/>
+	<Weapon
+		name = "Shurikens"
+		type = "1"
+		fireRate = "0.5"
+		bullet = "explosiveBulletPhase1"
+		numBullets = "2"
+		attackConeAngleDegrees ="15.0"
+	/>
+	<Weapon
+		name = "enemyShotgun"
+		type = "1"
+		fireRate = "4.0"
+		bullet = "enemyShotgunRegular"
+		numBullets = "7"
+		attackConeAngleDegrees ="90.0"
+	/>
+	<Weapon
+		name = "enemyBlaster"
+		type = "0"
+		fireRate = "0.75"
+		bullet = "enemyRegular"
+	/>
+</WeaponDefinitions>

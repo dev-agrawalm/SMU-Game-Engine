@@ -1,0 +1,82 @@
+<Config palleteButtonDims ="50.0, 50.0" saveButtonDims ="150.0, 50.0" buttonNameDims="250.0, 50.0" buttonToolTipDims="250.0, 150.0">
+	<GroundTileButton
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.85"
+	/>
+	<BridgeTileButton
+		relativeMinsFractionX = "0.45"
+		relativeMinsFractionY = "0.85"
+	/>
+	<SpikesTileButton
+		relativeMinsFractionX = "0.75"
+		relativeMinsFractionY = "0.85"
+	/>
+	<MarioButton
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.75"
+	/>
+	<GoombaButton
+		relativeMinsFractionX = "0.45"
+		relativeMinsFractionY = "0.75"
+	/>
+	<CoinButton
+		relativeMinsFractionX = "0.75"
+		relativeMinsFractionY = "0.75"
+	/>
+	<LevelEndButton
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.65"
+	/>
+	<SwitchButton
+		relativeMinsFractionX = "0.45"
+		relativeMinsFractionY = "0.65"
+	/>
+	<RedBlockButton
+		relativeMinsFractionX = "0.75"
+		relativeMinsFractionY = "0.65"
+	/>
+	<BlueBlockButton
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.55"
+	/>
+	<BreakBlockButton
+		relativeMinsFractionX = "0.45"
+		relativeMinsFractionY = "0.55"
+	/>
+	<FlipBlockButton
+		relativeMinsFractionX = "0.75"
+		relativeMinsFractionY = "0.55"
+	/>
+	<TurtleButton
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.45"
+	/>
+	<GreenShellButton
+		relativeMinsFractionX = "0.45"
+		relativeMinsFractionY = "0.45"
+	/>
+	<RedMushroomButton
+		relativeMinsFractionX = "0.75"
+		relativeMinsFractionY = "0.45"
+	/>
+	<WaypointButton
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.35"
+	/>
+	<BowserButton
+		relativeMinsFractionX = "0.45"
+		relativeMinsFractionY = "0.35"
+	/>
+	<ButtonNameWidget
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.27"
+	/>
+	<ButtonToolTipWidget
+		relativeMinsFractionX = "0.15"
+		relativeMinsFractionY = "0.09"
+	/>
+	<SaveButton
+		relativeMinsFractionX = "0.30"
+		relativeMinsFractionY = "0.01"
+	/>
+</Config>

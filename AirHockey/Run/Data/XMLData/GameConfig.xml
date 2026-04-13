@@ -1,0 +1,37 @@
+<GameConfig
+	
+	windowAspect		="2.0"
+	windowTitle			="Neon Air Hockey"
+	uiCamOrthoSizeX		="1800.0"
+	uiCamOrthoSizeY		="900.0"
+	worldCamOrthoSizeX	="2.0"
+	worldCamOrthoSizeY	="2.0"
+	startFromLobby		="false"
+	shouldPuckDie		="true"
+	
+	tableWidth = "12.0"
+	tableHeight = "16.0"
+	deadZoneHeight = "4.0"
+	clampPaddleToDeadZone ="true"
+	
+	mouseSensitivity ="0.01"
+	
+	cameraPos1 = "0.0, -9.5, 8.8"
+	cameraOrientation1 = "-270, 55, 0.0"
+	
+	cameraPos2 = "0.0, 9.5, 8.8"
+	cameraOrientation2 = "-90, 55, 0.0"
+	
+	paddleBaseHeight = "0.1"
+	paddleBaseRadius = "0.3"
+		
+	paddleHandleHeight = "0.25"
+	paddleHandleRadius = "0.1"
+	
+	inputCatchUpStartSpeed ="500.0"
+	inputCatchUpMaxSpeed ="1000.0"
+	lengthAtMaxSpeed ="50"
+	
+	puckRadius = "0.5"
+	puckHeight = "0.05"
+/>

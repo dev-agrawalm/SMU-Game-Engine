@@ -1,0 +1,95 @@
+<!--bullet Types
+	
+	the bullet names can be anything
+	
+	bullet definition parameters
+	name = name of bullet definition (used by weapons to know which bullet to use)
+	damage = damage on impact
+	speed = speed of the bullet
+	lifetime = the bullet will die/disappear/be removed from the game after this duration
+	numChildBullets = only applicable for explosive bullets. The number of bullets this bullet will spawn
+	childBullet = the type of the bullet to be spawned. Only applicable for explosive bullets
+	
+	Warning: If you make the child bullet of an explosive bullet be the same bullet as itself then the game will end up lagging after some time
+-->
+
+<BulletDefinitions>
+	<Bullet
+		name ="regular"
+		damage = "10"
+		speed = "40"
+		spriteCoords ="1, 11"
+		dieOnImpact ="true"
+		physicsRadius =" 3.0"
+		cosmeticRadius ="3.2"
+	/>
+	<Bullet
+		name ="explosive"
+		damage = "10"
+		speed = "15"
+		lifetime ="2.0"
+		numChildBullets ="5"
+		childBullet ="regular"
+		spriteCoords ="0, 11"
+		dieOnImpact ="true"
+		physicsRadius ="3.0"
+		cosmeticRadius ="3.2"
+	/>
+	<Bullet
+		name ="enemyRegular"
+		damage = "5"
+		speed = "50"
+		spriteCoords ="0, 11"
+		dieOnImpact ="true"
+		physicsRadius =" 2.5"
+		cosmeticRadius ="2.8"
+	/>
+	<Bullet
+		name ="enemyShotgunRegular"
+		damage = "10"
+		speed = "40"
+		spriteCoords ="1, 11"
+		dieOnImpact ="true"
+		physicsRadius =" 3.0"
+		cosmeticRadius ="3.2"
+	/>
+	<Bullet
+		name ="blasterBullet"
+		damage ="10"
+		speed ="40"
+		spriteCoords ="2, 10"
+		dieOnImpact ="true"
+		physicsRadius ="1.5"
+		cosmeticRadius ="3.5"
+	/>
+	<Bullet
+		name ="shotgunBullet"
+		damage ="30"
+		speed ="30"
+		spriteCoords ="0, 9"
+		dieOnImpact ="false"
+		physicsRadius ="1.5"
+		cosmeticRadius ="3.2"
+	/>
+	<Bullet
+		name ="explosiveBulletPhase2"
+		damage ="45"
+		speed ="45"
+		spriteCoords ="1, 10"
+		dieOnImpact ="true"
+		physicsRadius ="1.5"
+		cosmeticRadius ="3.2"
+	/>
+	<Bullet
+		name ="explosiveBulletPhase1"
+		damage ="10"
+		speed ="30"
+		spriteCoords ="0, 10"
+		dieOnImpact ="false"
+		physicsRadius ="1.5"
+		cosmeticRadius ="3.2"
+		lifetime ="2.0"
+		numChildBullets ="6"
+		childBullet ="explosiveBulletPhase2"
+	/>
+</BulletDefinitions>

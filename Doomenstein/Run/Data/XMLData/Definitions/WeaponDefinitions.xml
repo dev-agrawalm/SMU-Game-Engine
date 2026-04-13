@@ -1,0 +1,75 @@
+<Definitions>
+    <!-- Pistol -->
+    <WeaponDefinition name="Pistol"
+                      refireTime="0.5"
+                      isAutomatic="false"
+                      numRays="1"
+                      rayDamage="18~24"
+                      rayCone="6.0"
+                      rayImpulse="12.0"
+					  rayLength ="20.0"
+                      fireSounds="Data/Audio/PistolFire.wav"
+                      ownerAttackAnimation="Attack">
+        <HUD reticle="Data/Images/Reticle.png"
+             reticleSize="16,16"
+             spriteSheet="Data/Images/weapon_pistol.png"
+             spriteScale="250, 250"
+             cellCount="5,1">
+            <Animation name="Idle" frames="0" />
+            <Animation name="Attack" secondsPerFrame="0.1" frames="1, 3, 4" />
+        </HUD>
+    </WeaponDefinition>
+
+    <!-- Plasma Rifle -->
+    <ActorDefinition name="PlasmaProjectile"
+                     possessable="false"
+                     lingerTime=".4"
+                     sfxDeath="Data/Audio/PlasmaHit.wav">
+
+        <Collision radius="0.25"
+                   height="0.25"
+                   base="-0.25"
+                   pushOffWorld="true"
+                   pushOffActors="true"
+                   damageOnTouch="40~60"
+                   impulseOnTouch="4.0"
+                   dieOnCollision="true">
+        </Collision>
+
+        <Physics enabled="true"
+			     turnSpeed="30.0f, 30.0f, 30.0f"
+                 flying="true"
+                 drag="0.0f" />
+        
+        <Appearance size="1.0, 1.0"
+                    pivot="0.5, 0.5"
+                    billboard="CameraFacing"
+                    spritesheet="Data/Images/plasma.png"
+                    cellCount="4,1"
+					defaultAnim="Walk"
+					shader="Data/Shaders/Cut-Out">
+            <AnimationGroup name="Walk" secondsPerFrame="0.1" front="0"/>
+            <AnimationGroup name="Death" secondsPerFrame="0.1" front="1, 2, 3"/>
+        </Appearance>
+    </ActorDefinition>
+
+    <WeaponDefinition name="PlasmaRifle"
+                      refireTime="0.15"
+                      isAutomatic="true"
+                      numProjectiles="1"
+                      projectileActor="PlasmaProjectile"
+                      projectileCone="1.0"
+                      projectileSpeed="26"
+                      fireSounds="Data/Audio/PlasmaFire.wav"
+                      ownerAttackAnimation="Attack">
+        <HUD reticle="Data/Images/Reticle.png"
+             reticleSize="16,16"
+             spriteSheet="Data/Images/weapon_plasma.png"
+             spriteScale="300, 300"
+             cellCount="4,1">
+            <Animation name="Idle" frames="0" />
+            <Animation name="Attack" secondsPerFrame="0.125" frames="1, 2, 3" />
+        </HUD>
+    </WeaponDefinition>      
+                      
+</Definitions>

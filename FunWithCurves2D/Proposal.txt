@@ -1,0 +1,5 @@
+Proposal:
+A galaga-style 2D scrolling game with an in-built spline editor for the enemy paths.
+The game will feature a player in space, controlling a spaceship, that is being bombarded with enemies and bullets and the player has to survive/beat all the enemies.
+The enemies will follow interesting and unique paths which will be defined by splines made in the spline editor.
+The path editor will allow you to define splines for anything (its gonna be used for enemy paths primarily).

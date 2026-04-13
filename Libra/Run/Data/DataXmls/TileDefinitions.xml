@@ -1,0 +1,114 @@
+<TileDefinitions spriteSheetPath ="Data/Images/Terrain_8x8.png" spriteSheetDimensions ="8,8">
+	<TileDefinition
+		name =			"SHORT_GRASS"
+		isSolid =		"false"
+		spriteCoords =	"0, 0"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"182,255,0"
+	/>
+	<TileDefinition
+		name =			"LEAVES"
+		isSolid =		"false"
+		spriteCoords =	"7, 0"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"0,127,70"
+	/>
+	<TileDefinition
+		name =			"LONG_GRASS"
+		isSolid =		"false"
+		spriteCoords =	"0, 1"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"38,127,0"
+	/>
+	<TileDefinition
+		name =			"SAND"
+		isSolid =		"false"
+		spriteCoords =	"7, 2"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"255,216,0"
+	/>
+	<TileDefinition
+		name =			"MUD"
+		isSolid =		"false"
+		spriteCoords =	"5, 2"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"132,66,0"
+	/>
+	<TileDefinition
+		name =			"RED_BRICK_WALL"
+		isSolid =		"true"
+		spriteCoords =	"3, 5"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"255,0,0"
+	/>
+	<TileDefinition
+		name =			"GREY_BRICK_WALL"
+		isSolid =		"true"
+		spriteCoords =	"2, 4"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"96,96,96"
+	/>
+	<TileDefinition
+		name =			"GOLD_BRICK_WALL"
+		isSolid =		"true"
+		spriteCoords =	"2, 7"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"255,106,0"
+	/>
+	<TileDefinition
+		name =			"GRAVEL"
+		isSolid =		"false"
+		spriteCoords =	"6, 3"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"48,48,48"
+	/>
+	<TileDefinition
+		name =			"PAVEMENT"
+		isSolid =		"false"
+		spriteCoords =	"0, 2"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"160,160,160"
+	/>
+	<TileDefinition
+		name =			"WOOD_FLOOR"
+		isSolid =		"false"
+		spriteCoords =	"0, 6"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"127,51,0"
+	/>
+	<TileDefinition
+		name =			"MAP_ENTRY"
+		isSolid =		"false"
+		spriteCoords =	"0, 7"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"255,40,169"
+	/>
+	<TileDefinition
+		name =			"MAP_EXIT"
+		isSolid =		"false"
+		spriteCoords =	"1, 7"
+		tint =			"255,255,255,255"
+		isWater =		"false"
+		mapImageColor =	"191,53,255"
+	/>
+	<TileDefinition
+		name =			"WATER"
+		isSolid =		"false"
+		spriteCoords =	"5, 7"
+		tint =			"255,255,255,255"
+		isWater =		"true"
+		mapImageColor =	"0,148,255"
+	/>
+</TileDefinitions>

@@ -1,0 +1,53 @@
+<GameConfig
+	
+	windowAspect		="2.0"
+	windowTitle			="Manavcraft"
+	uiCamOrthoSizeX		="1800.0"
+	uiCamOrthoSizeY		="900.0"
+	worldCamOrthoSizeX	="2.0"
+	worldCamOrthoSizeY	="2.0"
+	
+	worldTimeScale ="200.0"
+	worldTimeScaleFastModifier ="500"
+	
+	debugNewNeighborRebuildsLightExposure ="false"
+	debugGenerateMeshWithAllNeighbors ="true"
+	debugInitialiseLightingOnChunkActivation ="true"
+	debugVariableSkyColor ="false"
+	debugVariableOutdoorLight ="true"
+	renderWithoutLighting="false"
+	newNeighborDirtiesMesh ="false"
+	debugRunAtFastSpeed ="false"
+	debugRenderChunks ="false"
+	chunkActivationDistance ="250.0"
+	maxChunkCount ="-1"
+	
+	playerMovementSpeed		= "4.0"
+	playerSprintSpeed		= "9.0"
+	playerMouseSensitivity	= "0.1"
+	playerMaxAcceleration	= "30.0"
+	playerJumpAcceleration	= "250.0"
+	playerSprintAccelerationModifier ="4.0"
+	
+	gravity ="10.0"
+	airHorizontalFrictionModifier = "0.75"
+	horizontalFriction = "5.0"
+	
+	raycastBackupDistance ="0.1"
+	raycastVisualisingDuration ="0.0"
+	
+	playerPlacementBlock1 ="brick"
+	playerPlacementBlock2 ="glowstone"
+	
+	skyNoonColor = "102, 222, 255"
+	skyNightColor = "20, 20, 40"
+	
+	indoorLightColor ="255, 230, 204"
+	outdoorNoonLightColor ="255, 255, 255"
+	outdoorNightLightColor = "48, 66, 94"
+	
+	fogMinDistance = "30"
+	fogMaxDistance = "300"
+	fogMaxIntensity ="1.0"
+	
+/>

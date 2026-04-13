@@ -1,0 +1,18 @@
+<GameConfig
+	
+	windowAspect		="2.0"
+	windowTitle			="TestGame"
+	uiCamOrthoSizeX		="1600.0"
+	uiCamOrthoSizeY		="800.0"
+	worldCamOrthoSizeX	="200.0"
+	worldCamOrthoSizeY	="100.0f"
+	text				="The quick brown
+	Fox jumped
+	over the lazy dog"
+	cellHeight			="20.0"
+	cellAspect			="1.0"
+	
+	camSpeed = "5.0"
+	sprintModifier = "1.5"
+	mouseSensitivity ="0.1"
+/>

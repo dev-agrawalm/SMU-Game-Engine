@@ -1,0 +1,55 @@
+<GameConfig
+	windowAspect		=	"2.0"
+	windowTitle			=	"Manavmaker"
+	
+	uiCamOrthoSizeX		=	"1800.0"
+	uiCamOrthoSizeY		=	"900.0"
+	
+	editorCamOrthoX		=	"128.0"
+	editorCamOrthoY		=	"64.0"
+	
+	gameplayCamOrthoX	= "60.0"
+	gameplayCamOrthoY	= "30.0"
+	
+	editorCamPanningSensitivity =" 0.05"
+	editorCamZoomSpeed = "1.1"
+	
+	welcomeToTextMins	=	"800.0, 700.0"
+	manavMakerTextMins	=	"725.0, 600.0"
+	mainMenuButtonDims	=	"200.0, 30.0"
+	newLevelButtonMins	=	"800.0, 500.0"
+	loadLevelButtonMins =	"800.0, 400.0"
+	
+	paintBrushButtonDims			=	"50.0, 50.0"
+	paintBrushButtonBorderWidth		=	"2.5"
+	savedLevelTextWidgetDims		=	"100.0, 50.0"
+	
+	HideInspector ="false"
+	
+	playerJumpSustainThrust						=	"20.0"
+	playerJumpFrameAllowance					=	"5"
+	knockbackModifier							=	"1.0"
+	playerInvulnerabilityDuration				=	"3.0"
+	playerInvulnerableIndicatorTimeInterval		=	"0.1"
+	
+	gameOverDuration_Loss		=	"6.0"
+	gameOverDuration_Victory	=	"8.0"
+	
+	coinBounds = "10.0, 15.0, 60.0f, 65.0f"
+	coinTextSize ="60.0"
+	coinTextBounds	=	"55.0, 0.0, 300.0, 50.0"
+	
+	coinCollectAnimationDuration	=	"0.25"
+	coinCollectDuration				=	"0.50"
+	coinCollectAnimScale			=	"5.0"
+	goombaDeathAnimationDuration	=	"0.25"
+	coinCollectBlend				="true"
+	
+	useStoneAsGround	=	"true"
+	muteEditor			=	"true"
+	muteLevel			=	"true"
+	muteSfx				=   "true"
+	renderGrid			=	"true"
+	
+	useWindowDialog		=	"true"
+/>

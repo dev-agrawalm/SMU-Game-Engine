@@ -1,0 +1,42 @@
+<Config>
+	<HeaderBox
+		dimensions ="450.0, 50.0"
+		relativeMinsFractionX = "0.0"
+		relativeMinsFractionY = "0.95"
+	/>
+	<EditorControlsHeader
+		dimensions ="450.0, 50.0"
+		relativeMinsFractionX = "0.0"
+		relativeMinsFractionY = "0.85"
+	/>
+	<EditorControlsBox
+		dimensions ="420.0, 400.0"
+		relativeMinsFractionX = "0.01"
+		relativeMinsFractionY = "0.40"
+	/>
+	<GameplayControlsHeader
+		dimensions ="450.0, 50.0"
+		relativeMinsFractionX = "0.0"
+		relativeMinsFractionY = "0.25"
+	/>
+	<GameplayControlsBox
+		dimensions ="420.0, 100.0"
+		relativeMinsFractionX = "0.01"
+		relativeMinsFractionY = "0.15"
+	/>
+	<ToggleEditorMusicCheckbox
+		dimensions ="50.0, 50.0"
+		relativeMinsFractionX = "0.01"
+		relativeMinsFractionY = "0.1"
+	/>
+	<ToggleGameMusicCheckbox
+		dimensions ="50.0, 50.0"
+		relativeMinsFractionX = "0.01"
+		relativeMinsFractionY = "0.03"
+	/>
+	<ToggleGameSFXCheckbox
+		dimensions ="420.0, 100.0"
+		relativeMinsFractionX = "0.01"
+		relativeMinsFractionY = "0.01"
+	/>
+</Config>

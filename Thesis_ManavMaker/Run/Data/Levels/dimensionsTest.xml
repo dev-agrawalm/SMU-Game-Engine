@@ -1,0 +1,11 @@
+<Level>
+    <Grid/>
+    <SpawnData>
+        <EntitySpawn type="1" pos="53.500000, 34.000000"/>
+        <EntitySpawn type="0" pos="56.500000, 34.000000"/>
+        <EntitySpawn type="0" pos="57.500000, 34.000000"/>
+        <EntitySpawn type="1" pos="52.500000, 34.000000"/>
+        <EntitySpawn type="2" pos="60.500000, 34.000000"/>
+        <EntitySpawn type="3" pos="64.500000, 33.000000"/>
+    </SpawnData>
+</Level>

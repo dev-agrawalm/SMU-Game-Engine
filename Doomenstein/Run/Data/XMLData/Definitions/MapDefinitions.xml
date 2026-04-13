@@ -1,0 +1,18 @@
+<MapDefinitions>
+
+	<!-- 
+    name: how to reference
+    image: source for tile placement
+    tileSet: what colors mean what
+    entityPlacement: xml containing entities for this map
+    gameMode: game type to play on this map (victory conditions may change) -->
+	<MapDefinition name="TestMap"
+        image="Data/Maps/Test.Map.png"
+        tileSet="Default"
+        spawns="Data/Maps/Test.Spawns.xml"
+        music="Data/Audio/Mick Gordon  The Only Thing They Fear Is You.mp3"
+        gameMode="Default" />
+
+</MapDefinitions>
+
+

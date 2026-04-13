@@ -1,0 +1,32 @@
+<Level>
+    <Grid>
+        <Tile index="4282" definition="Bridge"/>
+        <Tile index="4409" definition="Bridge"/>
+        <Tile index="4410" definition="Bridge"/>
+        <Tile index="4536" definition="Bridge"/>
+        <Tile index="4537" definition="Bridge"/>
+        <Tile index="4664" definition="Bridge"/>
+        <Tile index="4791" definition="Bridge"/>
+        <Tile index="4792" definition="Bridge"/>
+        <Tile index="4917" definition="Bridge"/>
+        <Tile index="4918" definition="Bridge"/>
+        <Tile index="4919" definition="Bridge"/>
+        <Tile index="5032" definition="Bridge"/>
+        <Tile index="5033" definition="Bridge"/>
+        <Tile index="5034" definition="Bridge"/>
+        <Tile index="5035" definition="Bridge"/>
+        <Tile index="5041" definition="Bridge"/>
+        <Tile index="5042" definition="Bridge"/>
+        <Tile index="5043" definition="Bridge"/>
+        <Tile index="5044" definition="Bridge"/>
+        <Tile index="5045" definition="Bridge"/>
+        <Tile index="5163" definition="Bridge"/>
+        <Tile index="5164" definition="Bridge"/>
+        <Tile index="5165" definition="Bridge"/>
+        <Tile index="5166" definition="Bridge"/>
+        <Tile index="5167" definition="Bridge"/>
+        <Tile index="5168" definition="Bridge"/>
+        <Tile index="5169" definition="Bridge"/>
+    </Grid>
+    <SpawnData/>
+</Level>

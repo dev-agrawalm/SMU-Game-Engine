@@ -1,0 +1,7 @@
+Use filters in visual studio to arrange your code. Makes navigation easier rather than having all of it in the same gameplay filter.
+
+Calling functions that perform atomic actions multiple times improves readability and clarity of code than having one big function doing the atomic action multiple times inside it.
+^makes refactoring so much easier because rather than making a change for every instance of atomic action, i can make the change in the atomic function
+
+Making magic numbers to variables is good but making magic number variables to data driven variables is even better. Try to make those variables data driven from the start to make
+iteration easier and faster

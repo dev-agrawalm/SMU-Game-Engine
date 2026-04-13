@@ -1,0 +1,180 @@
+<BlockDefinitions spriteSheet = "Data/Images/BasicSprites_64x64.png" cellCount ="64,64">
+	<Definition
+		name		= "air"
+		isSolid		= "false"
+		isOpaque	= "false"
+		isRendered	= "false"
+	/>
+	<Definition
+		name		= "grass"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "32, 33"
+		bottomSpriteCoords	= "32, 34"
+		sideSpriteCoords	= "33, 33"
+	/>
+	<Definition
+		name		= "dirt"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "32, 34"
+		bottomSpriteCoords	= "32, 34"
+		sideSpriteCoords	= "32, 34"
+	/>
+	<Definition
+		name		= "stone"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "33, 32"
+		bottomSpriteCoords	= "33, 32"
+		sideSpriteCoords	= "33, 32"
+	/>
+	<Definition
+		name		= "coal"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "63, 34"
+		bottomSpriteCoords	= "63, 34"
+		sideSpriteCoords	= "63, 34"
+	/>
+	<Definition
+		name		= "iron"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "63, 35"
+		bottomSpriteCoords	= "63, 35"
+		sideSpriteCoords	= "63, 35"
+	/>
+	<Definition
+		name		= "gold"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "63, 36"
+		bottomSpriteCoords	= "63, 36"
+		sideSpriteCoords	= "63, 36"
+	/>
+	<Definition
+		name		= "diamond"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "63, 37"
+		bottomSpriteCoords	= "63, 37"
+		sideSpriteCoords	= "63, 37"
+	/>
+	<Definition
+		name		= "water"
+		isSolid		= "false"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "32, 44"
+		bottomSpriteCoords	= "32, 44"
+		sideSpriteCoords	= "32, 44"
+	/>
+	<Definition
+		name		= "brick"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "42, 40"
+		bottomSpriteCoords	= "42, 40"
+		sideSpriteCoords	= "42, 40"
+	/>
+	<Definition
+		name		= "glowstone"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "46, 34"
+		bottomSpriteCoords	= "46, 34"
+		sideSpriteCoords	= "46, 34"
+		internalIndoorLight		="15"
+	/>
+	<Definition
+		name		= "sand"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "38, 34"
+		bottomSpriteCoords	= "38, 34"
+		sideSpriteCoords	= "38, 34"
+	/>
+	<Definition
+		name		= "snow"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "36, 35"
+		bottomSpriteCoords	= "36, 35"
+		sideSpriteCoords	= "36, 35"
+	/>
+	<Definition
+		name		= "snowy dirt"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "36, 35"
+		bottomSpriteCoords	= "32, 34"
+		sideSpriteCoords	= "33, 35"
+	/>
+	<Definition
+		name		= "wood"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "38, 33"
+		bottomSpriteCoords	= "38, 33"
+		sideSpriteCoords	= "36, 33"
+	/>
+	<Definition
+		name		= "leaf"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "32, 35"
+		bottomSpriteCoords	= "32, 35"
+		sideSpriteCoords	= "32, 35"
+	/>
+	<Definition
+		name		= "cactus body"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "38, 36"
+		bottomSpriteCoords	= "38, 36"
+		sideSpriteCoords	= "37, 36"
+	/>
+	<Definition
+		name		= "cactus head"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "39, 36"
+		bottomSpriteCoords	= "38, 36"
+		sideSpriteCoords	= "37, 36"
+	/>
+	<Definition
+		name		= "winter wood"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "38, 33"
+		bottomSpriteCoords	= "38, 33"
+		sideSpriteCoords	= "37, 33"
+	/>
+	<Definition
+		name		= "winter leaf"
+		isSolid		= "true"
+		isOpaque	= "true"
+		isRendered	= "true"
+		topSpriteCoords		= "34, 35"
+		bottomSpriteCoords	= "34, 35"
+		sideSpriteCoords	= "34, 35"
+	/>
+</BlockDefinitions>

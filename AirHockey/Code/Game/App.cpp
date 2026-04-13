@@ -1,0 +1,262 @@
+#include "Game/App.hpp"
+#include "Engine/Renderer/Renderer.hpp"
+#include "Engine/Core/EngineCommon.hpp"
+#include "Engine/Input/InputSystem.hpp"
+#include "Game/GameLauncher.hpp"
+#include "Game/GameCommon.hpp"
+#include "Engine/Core/Time.hpp"
+#include "Engine/Audio/AudioSystem.hpp"
+#include "Engine/Window/Window.hpp"
+#include "Engine/Core/ErrorWarningAssert.hpp"
+#include "Engine/Core/DevConsole.hpp"
+#include "Engine/Core/EngineCommon.hpp"
+#include "Engine/Math/AABB2.hpp"
+#include "Engine/Core/Clock.hpp"
+#include "Engine/Core/DebugRender.hpp"
+#include "Engine/UI/UISystem.hpp"
+#include "Engine/Networking/NetworkSystem.hpp"
+
+App*			g_theApp = nullptr;				// Created and owned by Main_Windows.cpp
+Renderer*		g_theRenderer = nullptr;				// Created and owned by the App
+InputSystem*	g_inputSystem = nullptr;
+AudioSystem*	g_audioSystem = nullptr;
+Window*			g_window = nullptr;
+GameLauncher*	g_gameLauncher = nullptr;
+UISystem*		g_uiSystem = nullptr;
+NetworkSystem*	g_networkSystem = nullptr;
+
+App::App()
+{
+
+}
+
+
+App::~App()
+{
+
+}
+
+
+void App::Startup()
+{
+	InitializeGameConfig();
+	InitialiseEngineSystems();
+	g_eventSystem->SubscribeEventCallbackFunction("Quit", App::StaticHandleQuitRequest);
+	CreateGame();
+}
+
+
+void App::ShutDown()
+{
+	DeleteGame();
+	DeInitialiseSubSystems();
+}
+
+
+void App::CreateGame()
+{
+	g_gameLauncher = new GameLauncher();
+	g_gameLauncher->Startup();
+}
+
+
+void App::DeleteGame()
+{
+	g_gameLauncher->ShutDown();
+	delete g_gameLauncher;
+	g_gameLauncher = nullptr;
+}
+
+
+void App::InitialiseEngineSystems()
+{
+	InputConfig inputConfig;
+	g_inputSystem = new InputSystem(inputConfig);
+
+	WindowConfig windowConfig;
+	windowConfig.m_inputSystem = g_inputSystem;
+	windowConfig.m_aspectRatio = g_gameConfigBlackboard.GetValue("windowAspect", 2.0f);
+	windowConfig.m_windowTitle = g_gameConfigBlackboard.GetValue("windowTitle", "Game");
+	g_window = new Window(windowConfig);
+
+	RenderConfig renderConfig;
+	renderConfig.m_window = g_window;
+	g_theRenderer = new Renderer(renderConfig);
+
+	AudioConfig audioConfig;
+	g_audioSystem = new AudioSystem(audioConfig);
+
+	DevConsoleConfig consoleConfig;
+	consoleConfig.m_defaultFontName = "SquirrelFixedFont";
+	consoleConfig.m_defaultRenderer = g_theRenderer;
+	consoleConfig.m_inputSystem = g_inputSystem;
+	g_console = new DevConsole(consoleConfig);
+
+	EventSystemConfig eventSystemConfig;
+	g_eventSystem = new EventSystem(eventSystemConfig);
+	
+	UISystemConfig uiConfig = {};
+	uiConfig.m_renderer = g_theRenderer;
+	uiConfig.m_window = g_window;
+	g_uiSystem = new UISystem(uiConfig);
+
+	NetworkConfig networkConfig = {};
+	g_networkSystem = new NetworkSystem(networkConfig);
+
+	g_inputSystem->Startup();
+	g_window->Startup();
+	g_theRenderer->Startup();
+	g_audioSystem->Startup();
+	g_console->Startup();
+	g_eventSystem->Startup();
+	g_uiSystem->Startup();
+	g_networkSystem->Startup();
+}
+
+
+void App::DeInitialiseSubSystems()
+{
+	g_networkSystem->Shutdown();
+	g_uiSystem->Shutdown();
+	g_eventSystem->Shutdown();
+	g_console->Shutdown();
+	g_audioSystem->Shutdown();
+	g_theRenderer->ShutDown();
+	g_window->ShutDown();
+	g_inputSystem->Shutdown();
+	
+	delete g_networkSystem;
+	g_networkSystem = nullptr;
+
+	delete g_uiSystem;
+	g_uiSystem = nullptr;
+
+	delete g_eventSystem;
+	g_eventSystem = nullptr;
+
+	delete g_console;
+	g_console = nullptr;
+
+	delete g_audioSystem;
+	g_audioSystem = nullptr;
+	
+	delete g_theRenderer;
+	g_theRenderer = nullptr;
+	
+	delete g_window;
+	g_window = nullptr;
+	
+	delete g_inputSystem;
+	g_inputSystem = nullptr;
+}
+
+
+void App::RunFrame()
+{
+	BeginFrame();
+	Update();
+	Render();
+	EndFrame();
+}
+
+
+bool App::IsQuitting() const
+{
+	return m_isQuitting;
+}
+
+
+void App::CheckInput()
+{
+	//delete the game and create a new one
+	if (g_inputSystem->WasKeyJustPressed(KEYCODE_F8))
+	{
+		DeleteGame();
+		CreateGame();
+	}
+}
+
+
+bool App::HandleQuitRequested()
+{
+	m_isQuitting = true;
+	return true;
+}
+
+
+void App::BeginFrame()
+{
+	Clock::SystemBeginFrame();
+
+	g_inputSystem->BeginFrame();
+	g_window->BeginFrame();
+	g_theRenderer->BeginFrame();
+	g_audioSystem->BeginFrame();
+	g_console->BeginFrame();
+	g_eventSystem->BeginFrame();
+	g_uiSystem->BeginFrame();
+	g_networkSystem->BeginFrame();
+}
+
+
+void App::Update()
+{
+	g_console->Update();
+	CheckInput();
+	//update game
+	g_gameLauncher->Update();
+}
+
+
+void App::Render() const
+{
+	//render context function calls - clear screen, begin camera, render ship end camera
+	//g_theRenderer->ClearScreen(Rgba8(0, 0, 0, 255)); //set the background of the game to black
+	g_gameLauncher->Render();
+
+	Camera debugScreenCamera;
+	float debugScreenCameraOrthoX = g_gameConfigBlackboard.GetValue("uiCamOrthoSizeX", 0.0f);
+	float debugScreenCameraOrthoY = g_gameConfigBlackboard.GetValue("uiCamOrthoSizeY", 0.0f);
+	debugScreenCamera.SetOrthoView(0.0f, 0.0f, debugScreenCameraOrthoX, debugScreenCameraOrthoY);
+	
+	DebugRenderScreenToCamera(debugScreenCamera);
+	
+	g_theRenderer->BeginCamera(debugScreenCamera);
+	AABB2 consoleBounds = debugScreenCamera.GetOrthoCamBoundingBox();
+	g_console->Render(consoleBounds);
+	g_theRenderer->EndCamera(debugScreenCamera);
+}
+
+
+void App::EndFrame()
+{
+	g_networkSystem->EndFrame();
+	g_uiSystem->EndFrame();
+	g_eventSystem->EndFrame();
+	g_console->EndFrame();
+	g_audioSystem->EndFrame();
+	g_theRenderer->EndFrame();
+	g_window->EndFrame();
+	g_inputSystem->EndFrame();
+}
+
+
+void App::InitializeGameConfig()
+{
+	XmlDocument gameConfigXmlFile;
+	XmlError result = gameConfigXmlFile.LoadFile("Data/XMLData/GameConfig.xml");
+	GUARANTEE_OR_DIE(result == XmlError::XML_SUCCESS, "Failed to load GameConfig file");
+
+	XmlElement* gameConfigElement = gameConfigXmlFile.RootElement();
+	GUARANTEE_OR_DIE((gameConfigElement && _stricmp(gameConfigElement->Name(), "GameConfig") == 0), "Unable to find the GameConfig Element");
+
+	g_gameConfigBlackboard.PopulateFromXmlElementAttributes(*gameConfigElement);
+}
+
+
+bool App::StaticHandleQuitRequest(EventArgs& args)
+{
+	UNUSED(args);
+	g_theApp->HandleQuitRequested();
+	return false;
+}

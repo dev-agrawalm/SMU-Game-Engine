@@ -1,0 +1,17 @@
+<Config color ="0, 255, 255">
+	<OnSpawnTriggerCheckbox
+		widgetDims ="100, 25"
+		relativeMinsFractionX = "0.25"
+		relativeMinsFractionY = "0.5"
+	/>
+	<OnDeathTriggerCheckbox
+		widgetDims ="100, 25"
+		relativeMinsFractionX = "0.25"
+		relativeMinsFractionY = "0.25"
+	/>
+	<OnDamageTriggerCheckbox
+		widgetDims ="100, 25"
+		relativeMinsFractionX = "0.25"
+		relativeMinsFractionY = "0.05"
+	/>	
+</Config>

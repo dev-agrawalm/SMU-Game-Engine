@@ -1,0 +1,290 @@
+<Level>
+    <Grid>
+        <Tile index="2351" definition="Spike"/>
+        <Tile index="2352" definition="Spike"/>
+        <Tile index="2353" definition="Spike"/>
+        <Tile index="2354" definition="Spike"/>
+        <Tile index="2355" definition="Spike"/>
+        <Tile index="2356" definition="Spike"/>
+        <Tile index="2357" definition="Spike"/>
+        <Tile index="2358" definition="Spike"/>
+        <Tile index="2359" definition="Spike"/>
+        <Tile index="2360" definition="Spike"/>
+        <Tile index="2361" definition="Spike"/>
+        <Tile index="2362" definition="Spike"/>
+        <Tile index="2363" definition="Spike"/>
+        <Tile index="2364" definition="Spike"/>
+        <Tile index="2365" definition="Spike"/>
+        <Tile index="2366" definition="Spike"/>
+        <Tile index="2367" definition="Spike"/>
+        <Tile index="2368" definition="Spike"/>
+        <Tile index="2369" definition="Spike"/>
+        <Tile index="2370" definition="Spike"/>
+        <Tile index="2371" definition="Spike"/>
+        <Tile index="2372" definition="Spike"/>
+        <Tile index="2373" definition="Spike"/>
+        <Tile index="2479" definition="Spike"/>
+        <Tile index="2480" definition="Spike"/>
+        <Tile index="2481" definition="Spike"/>
+        <Tile index="2482" definition="Spike"/>
+        <Tile index="2483" definition="Spike"/>
+        <Tile index="2484" definition="Spike"/>
+        <Tile index="2485" definition="Spike"/>
+        <Tile index="2486" definition="Spike"/>
+        <Tile index="2487" definition="Spike"/>
+        <Tile index="2488" definition="Spike"/>
+        <Tile index="2489" definition="Spike"/>
+        <Tile index="2490" definition="Spike"/>
+        <Tile index="2491" definition="Spike"/>
+        <Tile index="2492" definition="Spike"/>
+        <Tile index="2493" definition="Spike"/>
+        <Tile index="2494" definition="Spike"/>
+        <Tile index="2495" definition="Spike"/>
+        <Tile index="2496" definition="Spike"/>
+        <Tile index="2497" definition="Spike"/>
+        <Tile index="2498" definition="Spike"/>
+        <Tile index="2499" definition="Spike"/>
+        <Tile index="2500" definition="Spike"/>
+        <Tile index="2501" definition="Spike"/>
+        <Tile index="2607" definition="Spike"/>
+        <Tile index="2608" definition="Spike"/>
+        <Tile index="2609" definition="Spike"/>
+        <Tile index="2610" definition="Spike"/>
+        <Tile index="2611" definition="Spike"/>
+        <Tile index="2612" definition="Spike"/>
+        <Tile index="2613" definition="Spike"/>
+        <Tile index="2614" definition="Spike"/>
+        <Tile index="2615" definition="Spike"/>
+        <Tile index="2616" definition="Spike"/>
+        <Tile index="2617" definition="Spike"/>
+        <Tile index="2618" definition="Spike"/>
+        <Tile index="2619" definition="Spike"/>
+        <Tile index="2620" definition="Spike"/>
+        <Tile index="2621" definition="Spike"/>
+        <Tile index="2622" definition="Spike"/>
+        <Tile index="2623" definition="Spike"/>
+        <Tile index="2624" definition="Spike"/>
+        <Tile index="2625" definition="Spike"/>
+        <Tile index="2626" definition="Spike"/>
+        <Tile index="2627" definition="Spike"/>
+        <Tile index="2628" definition="Spike"/>
+        <Tile index="2629" definition="Spike"/>
+        <Tile index="2735" definition="Spike"/>
+        <Tile index="2736" definition="Spike"/>
+        <Tile index="2737" definition="Spike"/>
+        <Tile index="2738" definition="Spike"/>
+        <Tile index="2739" definition="Spike"/>
+        <Tile index="2740" definition="Spike"/>
+        <Tile index="2741" definition="Spike"/>
+        <Tile index="2742" definition="Spike"/>
+        <Tile index="2743" definition="Spike"/>
+        <Tile index="2744" definition="Spike"/>
+        <Tile index="2745" definition="Spike"/>
+        <Tile index="2746" definition="Spike"/>
+        <Tile index="2747" definition="Spike"/>
+        <Tile index="2748" definition="Spike"/>
+        <Tile index="2749" definition="Spike"/>
+        <Tile index="2750" definition="Spike"/>
+        <Tile index="2751" definition="Spike"/>
+        <Tile index="2752" definition="Spike"/>
+        <Tile index="2753" definition="Spike"/>
+        <Tile index="2754" definition="Spike"/>
+        <Tile index="2755" definition="Spike"/>
+        <Tile index="2756" definition="Spike"/>
+        <Tile index="2757" definition="Spike"/>
+        <Tile index="2863" definition="Spike"/>
+        <Tile index="2864" definition="Spike"/>
+        <Tile index="2865" definition="Spike"/>
+        <Tile index="2866" definition="Spike"/>
+        <Tile index="2867" definition="Spike"/>
+        <Tile index="2868" definition="Spike"/>
+        <Tile index="2869" definition="Spike"/>
+        <Tile index="2870" definition="Spike"/>
+        <Tile index="2871" definition="Spike"/>
+        <Tile index="2872" definition="Spike"/>
+        <Tile index="2873" definition="Spike"/>
+        <Tile index="2874" definition="Spike"/>
+        <Tile index="2875" definition="Spike"/>
+        <Tile index="2876" definition="Spike"/>
+        <Tile index="2877" definition="Spike"/>
+        <Tile index="2878" definition="Spike"/>
+        <Tile index="2879" definition="Spike"/>
+        <Tile index="2880" definition="Spike"/>
+        <Tile index="2881" definition="Spike"/>
+        <Tile index="2882" definition="Spike"/>
+        <Tile index="2883" definition="Spike"/>
+        <Tile index="2884" definition="Spike"/>
+        <Tile index="2885" definition="Spike"/>
+        <Tile index="2991" definition="Spike"/>
+        <Tile index="2992" definition="Spike"/>
+        <Tile index="2993" definition="Spike"/>
+        <Tile index="2994" definition="Spike"/>
+        <Tile index="2995" definition="Spike"/>
+        <Tile index="2996" definition="Spike"/>
+        <Tile index="2997" definition="Spike"/>
+        <Tile index="2998" definition="Spike"/>
+        <Tile index="2999" definition="Spike"/>
+        <Tile index="3000" definition="Spike"/>
+        <Tile index="3001" definition="Spike"/>
+        <Tile index="3002" definition="Spike"/>
+        <Tile index="3003" definition="Spike"/>
+        <Tile index="3004" definition="Spike"/>
+        <Tile index="3005" definition="Spike"/>
+        <Tile index="3006" definition="Spike"/>
+        <Tile index="3007" definition="Spike"/>
+        <Tile index="3008" definition="Spike"/>
+        <Tile index="3009" definition="Spike"/>
+        <Tile index="3010" definition="Spike"/>
+        <Tile index="3011" definition="Spike"/>
+        <Tile index="3012" definition="Spike"/>
+        <Tile index="3013" definition="Spike"/>
+        <Tile index="3119" definition="Spike"/>
+        <Tile index="3120" definition="Spike"/>
+        <Tile index="3121" definition="Spike"/>
+        <Tile index="3122" definition="Spike"/>
+        <Tile index="3123" definition="Spike"/>
+        <Tile index="3124" definition="Spike"/>
+        <Tile index="3125" definition="Spike"/>
+        <Tile index="3126" definition="Spike"/>
+        <Tile index="3127" definition="Spike"/>
+        <Tile index="3128" definition="Spike"/>
+        <Tile index="3129" definition="Spike"/>
+        <Tile index="3130" definition="Spike"/>
+        <Tile index="3131" definition="Spike"/>
+        <Tile index="3132" definition="Spike"/>
+        <Tile index="3133" definition="Spike"/>
+        <Tile index="3134" definition="Spike"/>
+        <Tile index="3135" definition="Spike"/>
+        <Tile index="3136" definition="Spike"/>
+        <Tile index="3137" definition="Spike"/>
+        <Tile index="3138" definition="Spike"/>
+        <Tile index="3139" definition="Spike"/>
+        <Tile index="3140" definition="Spike"/>
+        <Tile index="3141" definition="Spike"/>
+        <Tile index="3247" definition="Spike"/>
+        <Tile index="3248" definition="Spike"/>
+        <Tile index="3249" definition="Spike"/>
+        <Tile index="3250" definition="Spike"/>
+        <Tile index="3251" definition="Spike"/>
+        <Tile index="3252" definition="Spike"/>
+        <Tile index="3253" definition="Spike"/>
+        <Tile index="3254" definition="Spike"/>
+        <Tile index="3255" definition="Spike"/>
+        <Tile index="3256" definition="Spike"/>
+        <Tile index="3257" definition="Spike"/>
+        <Tile index="3258" definition="Spike"/>
+        <Tile index="3259" definition="Spike"/>
+        <Tile index="3260" definition="Spike"/>
+        <Tile index="3261" definition="Spike"/>
+        <Tile index="3262" definition="Spike"/>
+        <Tile index="3263" definition="Spike"/>
+        <Tile index="3264" definition="Spike"/>
+        <Tile index="3265" definition="Spike"/>
+        <Tile index="3266" definition="Spike"/>
+        <Tile index="3267" definition="Spike"/>
+        <Tile index="3268" definition="Spike"/>
+        <Tile index="3269" definition="Spike"/>
+        <Tile index="3375" definition="Spike"/>
+        <Tile index="3376" definition="Spike"/>
+        <Tile index="3377" definition="Spike"/>
+        <Tile index="3378" definition="Spike"/>
+        <Tile index="3379" definition="Spike"/>
+        <Tile index="3380" definition="Spike"/>
+        <Tile index="3381" definition="Spike"/>
+        <Tile index="3382" definition="Spike"/>
+        <Tile index="3383" definition="Spike"/>
+        <Tile index="3384" definition="Spike"/>
+        <Tile index="3385" definition="Spike"/>
+        <Tile index="3386" definition="Spike"/>
+        <Tile index="3387" definition="Spike"/>
+        <Tile index="3388" definition="Spike"/>
+        <Tile index="3389" definition="Spike"/>
+        <Tile index="3390" definition="Spike"/>
+        <Tile index="3391" definition="Spike"/>
+        <Tile index="3392" definition="Spike"/>
+        <Tile index="3393" definition="Spike"/>
+        <Tile index="3394" definition="Spike"/>
+        <Tile index="3395" definition="Spike"/>
+        <Tile index="3396" definition="Spike"/>
+        <Tile index="3397" definition="Spike"/>
+        <Tile index="3761" definition="Ground"/>
+        <Tile index="3762" definition="Ground"/>
+        <Tile index="3763" definition="Ground"/>
+        <Tile index="3764" definition="Ground"/>
+        <Tile index="3765" definition="Ground"/>
+        <Tile index="3766" definition="Ground"/>
+        <Tile index="3767" definition="Ground"/>
+        <Tile index="3768" definition="Ground"/>
+        <Tile index="3769" definition="Ground"/>
+        <Tile index="3770" definition="Ground"/>
+        <Tile index="3771" definition="Ground"/>
+        <Tile index="3772" definition="Ground"/>
+        <Tile index="3773" definition="Ground"/>
+        <Tile index="3774" definition="Ground"/>
+        <Tile index="3775" definition="Ground"/>
+        <Tile index="3776" definition="Ground"/>
+        <Tile index="3777" definition="Spike"/>
+        <Tile index="3778" definition="Spike"/>
+        <Tile index="3779" definition="Spike"/>
+        <Tile index="3780" definition="Spike"/>
+        <Tile index="3781" definition="Spike"/>
+        <Tile index="3782" definition="Spike"/>
+        <Tile index="3783" definition="Spike"/>
+        <Tile index="3784" definition="Spike"/>
+        <Tile index="3785" definition="Spike"/>
+        <Tile index="3893" definition="Ground"/>
+        <Tile index="3897" definition="Ground"/>
+    </Grid>
+    <SpawnData>
+        <EntitySpawn type="0" pos="50.500000, 30.000000"/>
+        <EntitySpawn type="1" pos="54.500000, 30.000000"/>
+        <EntitySpawn type="1" pos="56.500000, 30.000000"/>
+        <EntitySpawn type="1" pos="56.500000, 31.000000"/>
+        <EntitySpawn type="1" pos="56.500000, 32.000000"/>
+        <EntitySpawn type="1" pos="56.500000, 33.000000"/>
+        <EntitySpawn type="1" pos="56.500000, 34.000000"/>
+        <EntitySpawn type="1" pos="56.500000, 35.000000"/>
+        <EntitySpawn type="1" pos="57.500000, 35.000000"/>
+        <EntitySpawn type="1" pos="57.500000, 36.000000"/>
+        <EntitySpawn type="1" pos="60.500000, 30.000000"/>
+        <EntitySpawn type="1" pos="62.500000, 30.000000"/>
+        <EntitySpawn type="1" pos="67.500000, 37.000000"/>
+        <EntitySpawn type="3" pos="71.500000, 30.000000"/>
+        <EntitySpawn type="1" pos="52.500000, 32.000000"/>
+        <EntitySpawn type="1" pos="42.500000, 36.000000"/>
+        <EntitySpawn type="1" pos="43.500000, 36.000000"/>
+        <EntitySpawn type="1" pos="44.500000, 36.000000"/>
+        <EntitySpawn type="1" pos="44.500000, 37.000000"/>
+        <EntitySpawn type="1" pos="45.500000, 37.000000"/>
+        <EntitySpawn type="1" pos="46.500000, 37.000000"/>
+        <EntitySpawn type="1" pos="47.500000, 37.000000"/>
+        <EntitySpawn type="1" pos="48.500000, 37.000000"/>
+        <EntitySpawn type="1" pos="48.500000, 38.000000"/>
+        <EntitySpawn type="1" pos="49.500000, 38.000000"/>
+        <EntitySpawn type="1" pos="50.500000, 38.000000"/>
+        <EntitySpawn type="1" pos="51.500000, 38.000000"/>
+        <EntitySpawn type="1" pos="51.500000, 39.000000"/>
+        <EntitySpawn type="1" pos="52.500000, 39.000000"/>
+        <EntitySpawn type="1" pos="53.500000, 39.000000"/>
+        <EntitySpawn type="1" pos="54.500000, 39.000000"/>
+        <EntitySpawn type="1" pos="54.500000, 40.000000"/>
+        <EntitySpawn type="1" pos="55.500000, 40.000000"/>
+        <EntitySpawn type="1" pos="56.500000, 40.000000"/>
+        <EntitySpawn type="1" pos="57.500000, 40.000000"/>
+        <EntitySpawn type="1" pos="58.500000, 40.000000"/>
+        <EntitySpawn type="1" pos="58.500000, 41.000000"/>
+        <EntitySpawn type="1" pos="59.500000, 41.000000"/>
+        <EntitySpawn type="1" pos="60.500000, 41.000000"/>
+        <EntitySpawn type="1" pos="61.500000, 41.000000"/>
+        <EntitySpawn type="1" pos="61.500000, 42.000000"/>
+        <EntitySpawn type="1" pos="62.500000, 42.000000"/>
+        <EntitySpawn type="1" pos="63.500000, 42.000000"/>
+        <EntitySpawn type="1" pos="64.500000, 42.000000"/>
+        <EntitySpawn type="1" pos="64.500000, 43.000000"/>
+        <EntitySpawn type="1" pos="65.500000, 43.000000"/>
+        <EntitySpawn type="1" pos="66.500000, 43.000000"/>
+        <EntitySpawn type="1" pos="67.500000, 43.000000"/>
+        <EntitySpawn type="2" pos="67.500000, 33.000000"/>
+        <EntitySpawn type="2" pos="62.500000, 33.000000"/>
+    </SpawnData>
+</Level>

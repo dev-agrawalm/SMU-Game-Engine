@@ -1,0 +1,11 @@
+Make prototypes, especially for UI stuff. Draw it out. Anything you're about to make, just draw it out to see what it would look like.
+
+Expose variables in game config even if the variables will be removed later on. Really useful for quickly testing different values
+
+Commit to one pattern - monolith for all or not for any - adds complexity to spawning
+
+If you're going to write to a file from code, it is better to not submit it to perforce
+
+
+Make your function names local/generic for generic concepts so reusability is easier. For example, if you're gonna have multiple xml definition structs and xml definition reading
+functions, then don't specify the name of the struct in the functions for consistency and easier to reuse.

@@ -1,0 +1,50 @@
+<MaterialDefinitions>
+	<!-- defaults is visible with a default Shader -->
+
+	<TileMaterial name="None"
+                        isVisible="false" />
+	<TileMaterial name="Error"
+                        shader="Default"
+                        diffuse="Default"
+                        tint="0, 255, 255" />
+	<TileMaterial name="Stone"
+                        diffuse="Data/Images/Terrain_8x8.png"
+                        cellCount="8,8"
+                        cell="3,6" />
+	<TileMaterial name="Brick"
+                        shader="Default"
+                        diffuse="Data/Images/Terrain_8x8.png"
+                        cellCount="8,8"
+                        cell="0,5" />
+	<TileMaterial name="Grass"
+                        shader="Default"
+                        diffuse="Data/Images/Terrain_8x8.png"
+                        cellCount="8,8"
+                        cell="2,1" />
+	<TileMaterial name="Dirt"
+                        shader="Default"
+                        diffuse="Data/Images/Terrain_8x8.png"
+                        cellCount="8,8"
+                        cell="5,2" />
+	<TileMaterial name="CaveStone"
+					   shader="Default"
+					   diffuse="Data/Images/Terrain_8x8.png"
+					   cellCount="8,8"
+					   cell="4,3" />
+	<TileMaterial name="WoodWall"
+                    shader="Default"
+                    diffuse="Data/Images/Terrain_8x8.png"
+                    cellCount="8,8"
+                    cell="1,6" />
+	<TileMaterial name="WoodTile"
+                    shader="Default"
+                    diffuse="Data/Images/Terrain_8x8.png"
+                    cellCount="8,8"
+                    cell="2,6" />
+	<TileMaterial name="WoodFloor"
+                    shader="Default"
+                    diffuse="Data/Images/Terrain_8x8.png"
+                    cellCount="8,8"
+                    cell="0,6" />
+</MaterialDefinitions>
+

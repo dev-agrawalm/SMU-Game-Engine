@@ -1,0 +1,153 @@
+<Definitions>
+
+	<ActorDefinition name="SpawnPoint" />
+
+	<ActorDefinition name="Marine"
+                     possessable="true"
+                     health="100"
+					 sfxPain="Data/Audio/PlayerHurt.wav"
+                     sfxDeath="Data/Audio/PlayerDeath1.wav">
+		<Collision radius="0.45"
+                   height="2.2"
+                   pushOffWorld="true"
+                   pushOffActors="true"
+                   immovable="false" />
+
+		<Physics enabled="true"
+			     walkSpeed="6.0f"
+                 runSpeed="10.0f"
+                 turnSpeed="720.0, 720.0, 720.0"
+                 drag="6.0f" />
+
+		<Appearance size="5.0, 5.0"
+                    pivot="0.5, 0.0"
+                    billboard="CameraAlignedXY"
+                    spritesheet="Data/Images/Actor_Marine_7x9.png"
+				    cellCount="7,9"
+				    defaultAnim="Walk"
+					shader="Data/Shaders/Cut-Out">
+			<AnimationGroup name="Walk"	scaleBySpeed="true"
+                            front="0, 1, 2, 3"
+                            frontLeft="7, 8, 9, 10"
+                            left="14, 15, 16, 17"
+                            backLeft="21, 22, 23, 24"
+                            back="28, 29, 30, 31"
+                            backRight="35, 36, 37, 38"
+                            right="42, 43, 44, 45"
+                            frontRight="49, 50, 51, 52" />
+
+			<AnimationGroup name="Attack" secondsPerFrames="0.1"
+                            front="5, 4"
+                            frontLeft="12, 11"
+                            left="19, 18"
+                            backLeft="26, 25"
+                            back="33, 32"
+                            backRight="40, 39"
+                            right="47, 46"
+                            frontRight="54, 53" />
+
+			<AnimationGroup name="Pain"
+                            front="6"
+                            frontLeft="13"
+                            left="20"
+                            backLeft="27"
+                            back="34"
+                            backRight="41 "
+                            right="48"
+                            frontRight="55" />
+
+			<AnimationGroup name="Death"
+                            secondsPerFrame="0.5"
+                            front="56, 57, 58, 59, 60, 61, 62"/>
+		</Appearance>
+
+		<Camera eyeHeight="1.75"
+				deadEyeHeight="0.25"
+                cameraFOV="60.0f" />
+		
+		<Inventory>
+			<Weapon name="Pistol" />
+			<Weapon name="PlasmaRifle" />
+		</Inventory>
+	</ActorDefinition>
+	<!-- Marine -->
+
+
+	<ActorDefinition name="Pinky"
+                     possessable="true"
+                     health="160"
+					 sfxPain="Data/Audio/DemonHurt.wav"
+                     sfxDeath="Data/Audio/DemonDeath.wav">
+
+		<Collision radius="0.9"
+               height="2.4"
+               pushOffWorld="true"
+               pushOffActors="true"
+               immovable="false"
+			   damageOnTouch="10~15"/>
+
+		<Physics enabled="true"
+                 walkSpeed="6.0f"
+                 runSpeed="12.0f"
+                 turnSpeed="180.0, 90.0, 0.0"
+                 drag="4.0f" />
+
+		<AI type="follower"
+            sightRadius="100.0"
+            sightAngle="270.0"
+        />
+
+		<Appearance size="6.2, 6.2"
+                    pivot="0.5, 0.0"
+                    billboard="CameraAlignedXY"
+                    spritesheet="Data/Images/Actor_Pinky_8x9.png"
+                    cellCount="8,9"
+                    defaultAnim="Walk"
+					shader="Data/Shaders/Cut-Out">
+			<AnimationGroup name="Walk"   scaleBySpeed="true" secondsPerFrame="0.25" front="0,1,2,3" frontLeft="8,9,10,11" left="16,17,18,19" backLeft="24,25,26,27" back="32,33,34,35" backRight="40,41,42,43" right="48,49,50,51" frontRight="56,57,58,59"/>
+			<AnimationGroup name="Attack" front="4,5,6" frontLeft="12,13,14" left="20,21,22" backLeft="28,29,30" back="36,37,38" backRight="44,45,46" right="52,53,54" frontRight="60,61,62"/>
+			<AnimationGroup name="Pain"   secondsPerFrame="0.75" front="7" frontLeft="15" left="23" backLeft="31" back="39" backRight="47" right="55" frontRight="63"/>
+			<AnimationGroup name="Death"  front="64,65,66,67,68,69"/>
+		</Appearance>
+
+		<Camera eyeHeight="1.5f"
+				deadEyeHeight="0.3"
+                cameraFOV="120.0f" />
+	</ActorDefinition>
+	<!-- Pinky -->
+
+
+	<!-- Effects -->
+	<ActorDefinition name="BulletHit"
+                     possessable="false"
+                     dieOnSpawn="true"
+                     lingerTime=".4">
+
+		<Appearance size=".35, .35"
+                    pivot="0.5, 0.5"
+                    billboard="CameraFacingXY"
+                    spritesheet="Data/Images/projectile_pistolhit.png"
+                    cellCount="4,1">
+			<AnimationGroup name="Death" secondsPerFrame="0.1" front="0, 1, 2, 3"/>
+		</Appearance>
+	</ActorDefinition>
+	<!-- BulletHit -->
+
+	<ActorDefinition name="BloodSplatter"
+                     possessable="false"
+                     dieOnSpawn="true"
+                     lingerTime=".3">
+
+		<Appearance size=".50, .50"
+                    pivot="0.5, 0.5"
+                    billboard="CameraFacingXY"
+                    spritesheet="Data/Images/projectile_bloodsplatter.png"
+                    cellCount="3,1">
+			<AnimationGroup name="Death" secondsPerFrame="0.1" front="0, 1, 2"/>
+		</Appearance>
+	</ActorDefinition>
+	<!-- BloodHit -->
+</Definitions>
+
+
+

@@ -1,0 +1,58 @@
+<GameConfig
+	
+	clientFractionOfDesktopHeight = "0.9"
+	clientFractionOfDesktopWidth = "0.7"
+	windowAspect		="0.7"
+	windowTitle			="Not Galaga"
+	uiCamOrthoSizeX		="350.0"
+	uiCamOrthoSizeY		="500.0"
+	worldCamOrthoSizeX	="70.0"
+	worldCamOrthoSizeY	="100.0"
+	
+	splineWidth ="2.0"
+	
+	playerSize				= "7.0f"
+	playerPos				= "35.0, 5.0"
+	playerSpeed				= "80.0"		
+	playerCosmeticRadius	= "3.0"
+	playerPhysicsRadius		= "2.8"
+	playerColor				= "0,0,255"
+	playerHealth			= "1000"
+	playerWeapon1			= "Blaster"
+	playerWeapon2			= "Shotgun"
+	playerWeapon3			= "Shurikens"
+	playerAcceleration		="500"
+	timeToMaxSpeedPlayer	= "1.0"
+	playerSidewaysMovementDrag = "10"
+	
+	playerDeathAnimationDuration ="0.5"
+	enemyDeathAnimationDuration ="0.5"
+	
+	bgStarCosmeticRadiusRange ="0.2~0.5"
+	numBgStars ="500"
+	bgStarVelocity ="0.0f, -10.0"
+	bgStarXRange ="-50.0~250.0"
+	bgStarYRange ="-50.0~150.0"
+	
+	enemyCountRange	= "7~10"
+	enemyWaveCooldown ="10.0"
+	
+	debugCanAIFire = "true"
+	displayScore = "true"
+	
+	attractScreenMusicVolume ="0.5"
+	gameBgMusicVolume		="0.2"
+	
+	playerFireSfxVolume		="0.7"
+	playerHitSfxVolume		="0.7"
+	playerDeathSfxVolume	="0.7"
+	enemyFireSfxVolume		="0.7"
+	enemyHitSfxVolume		="0.7"
+	enemyDeathSfxVolume		="0.7"
+	bulletExplosionSfxVolume =" 0.7"
+	
+	splineDefinitionsFileName ="Data/XMLData/SplineDefinitions.xml"
+	bulletDefinitionsFileName ="Data/XMLData/BulletDefinitions.xml"
+	weaponDefinitionsFileName ="Data/XMLData/WeaponDefinitions.xml"
+	enemyDefinitionsFileName ="Data/XMLData/EnemyDefinitions.xml"
+/>

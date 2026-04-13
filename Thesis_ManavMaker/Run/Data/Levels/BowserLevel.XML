@@ -1,0 +1,40 @@
+<Level>
+    <Grid>
+        <Tile index="3508" definition="Ground"/>
+        <Tile index="3509" definition="Ground"/>
+        <Tile index="3510" definition="Ground"/>
+        <Tile index="3511" definition="Ground"/>
+        <Tile index="3512" definition="Ground"/>
+        <Tile index="3513" definition="Ground"/>
+        <Tile index="3514" definition="Ground"/>
+        <Tile index="3515" definition="Ground"/>
+        <Tile index="3516" definition="Ground"/>
+        <Tile index="3517" definition="Ground"/>
+        <Tile index="3518" definition="Ground"/>
+        <Tile index="3519" definition="Ground"/>
+        <Tile index="3520" definition="Ground"/>
+        <Tile index="3521" definition="Ground"/>
+        <Tile index="3522" definition="Ground"/>
+        <Tile index="3523" definition="Ground"/>
+        <Tile index="3524" definition="Ground"/>
+        <Tile index="3525" definition="Ground"/>
+        <Tile index="3526" definition="Ground"/>
+        <Tile index="3527" definition="Ground"/>
+        <Tile index="3528" definition="Ground"/>
+        <Tile index="3529" definition="Ground"/>
+        <Tile index="3530" definition="Ground"/>
+        <Tile index="3531" definition="Ground"/>
+        <Tile index="3532" definition="Ground"/>
+        <Tile index="3533" definition="Ground"/>
+        <Tile index="3534" definition="Ground"/>
+        <Tile index="3535" definition="Ground"/>
+        <Tile index="3536" definition="Ground"/>
+        <Tile index="3537" definition="Ground"/>
+        <Tile index="3538" definition="Ground"/>
+        <Tile index="3539" definition="Ground"/>
+    </Grid>
+    <SpawnData>
+        <EntitySpawn type="0" pos="55.500000, 28.000000" id="327680" targetWaypoint="-1"/>
+        <EntitySpawn type="14" pos="78.500000, 28.000000" id="524289" targetWaypoint="-1"/>
+    </SpawnData>
+</Level>

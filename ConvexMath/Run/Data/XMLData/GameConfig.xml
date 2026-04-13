@@ -1,0 +1,21 @@
+<GameConfig
+	windowAspect		="2.0"
+	windowTitle			="ConvexScene"
+	uiCamOrthoSizeX		="1800.0"
+	uiCamOrthoSizeY		="900.0"
+	worldCamOrthoSizeX	="1800.0"
+	worldCamOrthoSizeY	="900.0f"
+	
+	randomPolyMinRadius	=	"40.0"
+	randomPolyMaxRadius	=	"100.0"
+	randomPolyMinThetaDegrees =	"10.0"
+	randomPolyMaxThetaDegrees =	"150.0"
+	
+	minDistFromOrigin = "-20.0"
+	maxDistFromOrigin = "20.0"
+	
+	startingNumShapes ="4"
+	
+	readSceneFromFile = "true"
+	sceneFilePath ="Data/bradge.GHCS"
+/>

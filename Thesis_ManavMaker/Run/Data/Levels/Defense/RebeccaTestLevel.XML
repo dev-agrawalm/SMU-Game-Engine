@@ -1,0 +1,190 @@
+<Level>
+    <Grid>
+        <Tile index="2194" definition="Bridge"/>
+        <Tile index="2195" definition="Bridge"/>
+        <Tile index="2196" definition="Bridge"/>
+        <Tile index="2197" definition="Bridge"/>
+        <Tile index="2198" definition="Bridge"/>
+        <Tile index="2199" definition="Bridge"/>
+        <Tile index="2200" definition="Bridge"/>
+        <Tile index="2201" definition="Bridge"/>
+        <Tile index="2202" definition="Bridge"/>
+        <Tile index="2203" definition="Bridge"/>
+        <Tile index="2204" definition="Bridge"/>
+        <Tile index="2205" definition="Bridge"/>
+        <Tile index="2206" definition="Bridge"/>
+        <Tile index="2207" definition="Bridge"/>
+        <Tile index="2208" definition="Bridge"/>
+        <Tile index="2209" definition="Bridge"/>
+        <Tile index="2210" definition="Bridge"/>
+        <Tile index="2211" definition="Bridge"/>
+    </Grid>
+    <SpawnData>
+        <EntitySpawn type="7" pos="1.500000, 13.000000" id="116850700" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="1.500000, 12.000000" id="116260876" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="2.500000, 13.000000" id="111869954" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="3.500000, 13.000000" id="112066563" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="4.500000, 13.000000" id="112263172" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="5.500000, 13.000000" id="112525317" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="6.500000, 13.000000" id="113770502" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="6.500000, 12.000000" id="114819079" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="5.500000, 12.000000" id="115081224" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="4.500000, 12.000000" id="115277833" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="3.500000, 12.000000" id="115539978" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="2.500000, 12.000000" id="116129803" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="0.500000, 13.000000" id="117964812" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="0.500000, 12.000000" id="119472141" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="0.500000, 11.000000" id="121045006" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="1.500000, 11.000000" id="121241615" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="2.500000, 11.000000" id="121372688" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="3.500000, 11.000000" id="121569297" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="4.500000, 11.000000" id="122421266" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="5.500000, 11.000000" id="123731987" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="6.500000, 11.000000" id="124846100" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="10.500000, 14.000000" id="135462947" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="11.500000, 15.000000" id="130154525" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="11.500000, 14.000000" id="135856164" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="12.500000, 14.000000" id="136052773" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="10.500000, 15.000000" id="135135266" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="14.500000, 15.000000" id="129040410" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="13.500000, 15.000000" id="129368091" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="12.500000, 15.000000" id="130023452" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="13.500000, 14.000000" id="136183846" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="14.500000, 14.000000" id="137756711" targetWaypoint="-1"/>
+        <EntitySpawn type="0" pos="4.500000, 14.000000" id="138149927" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="9.500000, 14.000000" id="134676513" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="9.500000, 15.000000" id="135069729" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="61.500000, 20.000000" id="171245641" targetWaypoint="-1"/>
+        <EntitySpawn type="3" pos="120.500000, 21.000000" id="140574754" targetWaypoint="140967971"/>
+        <EntitySpawn type="14" pos="109.500000, 20.000000" id="236126369" targetWaypoint="-1"/>
+        <EntitySpawn type="8" pos="11.500000, 19.000000" id="141819941" targetWaypoint="-1"/>
+        <EntitySpawn type="8" pos="12.500000, 19.000000" id="142278694" targetWaypoint="-1"/>
+        <EntitySpawn type="11" pos="0.500000, 14.000000" id="142934056" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="10.500000, 17.000000" id="143261736" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="11.500000, 17.000000" id="143589417" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="12.500000, 17.000000" id="143982634" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="3.500000, 16.000000" id="144310315" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="4.500000, 16.000000" id="144703532" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="5.500000, 16.000000" id="144965677" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="40.500000, 15.000000" id="151781428" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="42.500000, 15.000000" id="150077492" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="43.500000, 15.000000" id="149684276" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="43.500000, 14.000000" id="149422132" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="44.500000, 15.000000" id="147914802" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="44.500000, 14.000000" id="148832307" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="41.500000, 15.000000" id="151912500" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="42.500000, 14.000000" id="154468406" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="41.500000, 14.000000" id="154927158" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="40.500000, 14.000000" id="156303415" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="48.500000, 18.000000" id="156762168" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="49.500000, 18.000000" id="156893241" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="50.500000, 18.000000" id="157483066" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="51.500000, 18.000000" id="157745211" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="52.500000, 18.000000" id="159514684" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="52.500000, 17.000000" id="160563261" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="48.500000, 17.000000" id="163708995" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="49.500000, 17.000000" id="165544003" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="51.500000, 17.000000" id="161808448" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="50.500000, 17.000000" id="162332737" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="81.500000, 17.000000" id="204800125" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="79.500000, 17.000000" id="204079227" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="77.500000, 17.000000" id="203292793" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="69.500000, 17.000000" id="202571895" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="68.500000, 17.000000" id="202244214" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="70.500000, 16.000000" id="201785461" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="67.500000, 16.000000" id="199426162" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="81.500000, 16.000000" id="197263472" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="69.500000, 16.000000" id="201064564" targetWaypoint="-1"/>
+        <EntitySpawn type="1" pos="70.500000, 17.000000" id="202834040" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="78.500000, 17.000000" id="203686010" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="68.500000, 16.000000" id="200212595" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="82.500000, 16.000000" id="198705265" targetWaypoint="-1"/>
+        <EntitySpawn type="2" pos="80.500000, 17.000000" id="204406908" targetWaypoint="-1"/>
+        <EntitySpawn type="4" pos="58.500000, 26.000000" id="175636560" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="66.500000, 22.000000" id="176554065" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="67.500000, 22.000000" id="176816210" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="68.500000, 22.000000" id="176947283" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="69.500000, 22.000000" id="177274964" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="71.500000, 22.000000" id="180224086" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="70.500000, 22.000000" id="181272662" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="66.500000, 21.000000" id="181862487" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="67.500000, 21.000000" id="182124632" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="68.500000, 21.000000" id="182714457" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="69.500000, 21.000000" id="183435354" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="70.500000, 21.000000" id="184746075" targetWaypoint="-1"/>
+        <EntitySpawn type="5" pos="71.500000, 21.000000" id="185860188" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="76.500000, 20.000000" id="186253405" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="77.500000, 20.000000" id="186581086" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="78.500000, 20.000000" id="186974303" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="79.500000, 20.000000" id="187367520" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="80.500000, 20.000000" id="187957345" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="81.500000, 20.000000" id="188285026" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="82.500000, 20.000000" id="189530211" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="76.500000, 19.000000" id="189726820" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="77.500000, 19.000000" id="190251109" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="78.500000, 19.000000" id="190382182" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="79.500000, 19.000000" id="190644327" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="80.500000, 19.000000" id="191037544" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="81.500000, 19.000000" id="192610409" targetWaypoint="-1"/>
+        <EntitySpawn type="6" pos="82.500000, 19.000000" id="193724522" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="76.500000, 16.000000" id="194379883" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="77.500000, 16.000000" id="194773100" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="78.500000, 16.000000" id="195166317" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="79.500000, 16.000000" id="195887214" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="80.500000, 16.000000" id="196673647" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="55.500000, 19.000000" id="165937218" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="55.500000, 20.000000" id="175243343" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="56.500000, 19.000000" id="166527043" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="56.500000, 20.000000" id="208994432" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="57.500000, 19.000000" id="166985796" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="57.500000, 20.000000" id="209125504" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="58.500000, 19.000000" id="167247941" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="58.500000, 20.000000" id="209256576" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="59.500000, 19.000000" id="205979776" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="59.500000, 20.000000" id="209387648" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="60.500000, 19.000000" id="212074624" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="60.500000, 20.000000" id="210305152" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="61.500000, 19.000000" id="211550336" targetWaypoint="-1"/>
+        <EntitySpawn type="12" pos="119.500000, 19.000000" id="141361188" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="92.500000, 17.000000" id="212533374" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="93.500000, 17.000000" id="213123199" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="94.500000, 17.000000" id="213516416" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="95.500000, 17.000000" id="213778561" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="96.500000, 17.000000" id="213975170" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="97.500000, 17.000000" id="214237315" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="98.500000, 17.000000" id="214433924" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="99.500000, 17.000000" id="214827141" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="100.500000, 17.000000" id="215416966" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="101.500000, 17.000000" id="216531079" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="101.500000, 16.000000" id="217645192" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="100.500000, 16.000000" id="217907337" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="99.500000, 16.000000" id="218103946" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="98.500000, 16.000000" id="218562699" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="97.500000, 16.000000" id="219021452" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="96.500000, 16.000000" id="219545741" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="95.500000, 16.000000" id="219938958" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="94.500000, 16.000000" id="220594319" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="93.500000, 16.000000" id="221970576" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="92.500000, 16.000000" id="223150225" targetWaypoint="-1"/>
+        <EntitySpawn type="9" pos="93.500000, 18.000000" id="223608978" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="106.500000, 18.000000" id="230883484" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="108.500000, 18.000000" id="228982940" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="109.500000, 18.000000" id="228393116" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="110.500000, 18.000000" id="228262044" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="110.500000, 17.000000" id="228130972" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="111.500000, 18.000000" id="225181848" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="112.500000, 18.000000" id="226689177" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="112.500000, 17.000000" id="227868826" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="111.500000, 17.000000" id="228065435" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="107.500000, 18.000000" id="231080092" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="108.500000, 17.000000" id="233701535" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="109.500000, 17.000000" id="233373855" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="107.500000, 17.000000" id="234160287" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="106.500000, 17.000000" id="235667616" targetWaypoint="-1"/>
+        <EntitySpawn type="12" pos="116.500000, 17.000000" id="140967971" targetWaypoint="141361188"/>
+        <EntitySpawn type="7" pos="86.500000, 18.000000" id="236585122" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="87.500000, 18.000000" id="237043875" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="88.500000, 18.000000" id="238682276" targetWaypoint="-1"/>
+        <EntitySpawn type="7" pos="89.500000, 18.000000" id="240124069" targetWaypoint="-1"/>
+    </SpawnData>
+</Level>

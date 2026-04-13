@@ -1,0 +1,261 @@
+<Level>
+    <Grid>
+        <Tile index="3381" definition="Ground"/>
+        <Tile index="3382" definition="Ground"/>
+        <Tile index="3383" definition="Ground"/>
+        <Tile index="3384" definition="Ground"/>
+        <Tile index="3385" definition="Ground"/>
+        <Tile index="3386" definition="Ground"/>
+        <Tile index="3387" definition="Ground"/>
+        <Tile index="3388" definition="Ground"/>
+        <Tile index="3389" definition="Ground"/>
+        <Tile index="3390" definition="Ground"/>
+        <Tile index="3391" definition="Ground"/>
+        <Tile index="3392" definition="Ground"/>
+        <Tile index="3393" definition="Ground"/>
+        <Tile index="3394" definition="Ground"/>
+        <Tile index="3395" definition="Ground"/>
+        <Tile index="3396" definition="Ground"/>
+        <Tile index="3397" definition="Ground"/>
+        <Tile index="3398" definition="Ground"/>
+        <Tile index="3399" definition="Ground"/>
+        <Tile index="3400" definition="Ground"/>
+        <Tile index="3401" definition="Ground"/>
+        <Tile index="3402" definition="Ground"/>
+        <Tile index="3403" definition="Ground"/>
+        <Tile index="3404" definition="Ground"/>
+        <Tile index="3405" definition="Ground"/>
+        <Tile index="3406" definition="Ground"/>
+        <Tile index="3407" definition="Ground"/>
+        <Tile index="3408" definition="Ground"/>
+        <Tile index="3409" definition="Ground"/>
+        <Tile index="3410" definition="Ground"/>
+        <Tile index="3411" definition="Ground"/>
+        <Tile index="3412" definition="Ground"/>
+        <Tile index="3413" definition="Ground"/>
+        <Tile index="3414" definition="Ground"/>
+        <Tile index="3415" definition="Ground"/>
+        <Tile index="3416" definition="Ground"/>
+        <Tile index="3417" definition="Ground"/>
+        <Tile index="3418" definition="Ground"/>
+        <Tile index="3419" definition="Ground"/>
+        <Tile index="3509" definition="Ground"/>
+        <Tile index="3510" definition="Ground"/>
+        <Tile index="3511" definition="Ground"/>
+        <Tile index="3512" definition="Ground"/>
+        <Tile index="3513" definition="Ground"/>
+        <Tile index="3514" definition="Ground"/>
+        <Tile index="3515" definition="Ground"/>
+        <Tile index="3516" definition="Ground"/>
+        <Tile index="3517" definition="Ground"/>
+        <Tile index="3518" definition="Ground"/>
+        <Tile index="3519" definition="Ground"/>
+        <Tile index="3520" definition="Ground"/>
+        <Tile index="3521" definition="Ground"/>
+        <Tile index="3522" definition="Ground"/>
+        <Tile index="3523" definition="Ground"/>
+        <Tile index="3524" definition="Ground"/>
+        <Tile index="3525" definition="Ground"/>
+        <Tile index="3526" definition="Ground"/>
+        <Tile index="3527" definition="Ground"/>
+        <Tile index="3528" definition="Ground"/>
+        <Tile index="3529" definition="Ground"/>
+        <Tile index="3530" definition="Ground"/>
+        <Tile index="3531" definition="Ground"/>
+        <Tile index="3532" definition="Ground"/>
+        <Tile index="3533" definition="Ground"/>
+        <Tile index="3534" definition="Ground"/>
+        <Tile index="3535" definition="Ground"/>
+        <Tile index="3536" definition="Ground"/>
+        <Tile index="3537" definition="Ground"/>
+        <Tile index="3538" definition="Ground"/>
+        <Tile index="3539" definition="Ground"/>
+        <Tile index="3540" definition="Ground"/>
+        <Tile index="3541" definition="Ground"/>
+        <Tile index="3542" definition="Ground"/>
+        <Tile index="3543" definition="Ground"/>
+        <Tile index="3544" definition="Ground"/>
+        <Tile index="3545" definition="Ground"/>
+        <Tile index="3546" definition="Ground"/>
+        <Tile index="3547" definition="Ground"/>
+        <Tile index="3637" definition="Ground"/>
+        <Tile index="3638" definition="Ground"/>
+        <Tile index="3639" definition="Ground"/>
+        <Tile index="3640" definition="Ground"/>
+        <Tile index="3641" definition="Ground"/>
+        <Tile index="3642" definition="Ground"/>
+        <Tile index="3643" definition="Ground"/>
+        <Tile index="3644" definition="Ground"/>
+        <Tile index="3645" definition="Ground"/>
+        <Tile index="3646" definition="Ground"/>
+        <Tile index="3647" definition="Ground"/>
+        <Tile index="3648" definition="Ground"/>
+        <Tile index="3649" definition="Ground"/>
+        <Tile index="3650" definition="Ground"/>
+        <Tile index="3651" definition="Ground"/>
+        <Tile index="3652" definition="Ground"/>
+        <Tile index="3653" definition="Ground"/>
+        <Tile index="3654" definition="Ground"/>
+        <Tile index="3655" definition="Ground"/>
+        <Tile index="3656" definition="Ground"/>
+        <Tile index="3657" definition="Ground"/>
+        <Tile index="3658" definition="Ground"/>
+        <Tile index="3659" definition="Ground"/>
+        <Tile index="3660" definition="Ground"/>
+        <Tile index="3661" definition="Ground"/>
+        <Tile index="3662" definition="Ground"/>
+        <Tile index="3663" definition="Ground"/>
+        <Tile index="3664" definition="Ground"/>
+        <Tile index="3665" definition="Ground"/>
+        <Tile index="3666" definition="Ground"/>
+        <Tile index="3667" definition="Ground"/>
+        <Tile index="3668" definition="Ground"/>
+        <Tile index="3669" definition="Ground"/>
+        <Tile index="3670" definition="Ground"/>
+        <Tile index="3671" definition="Ground"/>
+        <Tile index="3672" definition="Ground"/>
+        <Tile index="3673" definition="Ground"/>
+        <Tile index="3674" definition="Ground"/>
+        <Tile index="3675" definition="Ground"/>
+        <Tile index="3765" definition="Ground"/>
+        <Tile index="3766" definition="Ground"/>
+        <Tile index="3767" definition="Ground"/>
+        <Tile index="3768" definition="Ground"/>
+        <Tile index="3769" definition="Ground"/>
+        <Tile index="3770" definition="Ground"/>
+        <Tile index="3771" definition="Ground"/>
+        <Tile index="3772" definition="Ground"/>
+        <Tile index="3773" definition="Ground"/>
+        <Tile index="3774" definition="Ground"/>
+        <Tile index="3775" definition="Ground"/>
+        <Tile index="3776" definition="Ground"/>
+        <Tile index="3777" definition="Ground"/>
+        <Tile index="3778" definition="Ground"/>
+        <Tile index="3779" definition="Ground"/>
+        <Tile index="3780" definition="Ground"/>
+        <Tile index="3781" definition="Ground"/>
+        <Tile index="3782" definition="Ground"/>
+        <Tile index="3783" definition="Ground"/>
+        <Tile index="3784" definition="Ground"/>
+        <Tile index="3785" definition="Ground"/>
+        <Tile index="3786" definition="Ground"/>
+        <Tile index="3787" definition="Ground"/>
+        <Tile index="3788" definition="Ground"/>
+        <Tile index="3789" definition="Ground"/>
+        <Tile index="3790" definition="Ground"/>
+        <Tile index="3791" definition="Ground"/>
+        <Tile index="3792" definition="Ground"/>
+        <Tile index="3793" definition="Ground"/>
+        <Tile index="3794" definition="Ground"/>
+        <Tile index="3795" definition="Ground"/>
+        <Tile index="3796" definition="Ground"/>
+        <Tile index="3797" definition="Ground"/>
+        <Tile index="3798" definition="Ground"/>
+        <Tile index="3799" definition="Ground"/>
+        <Tile index="3800" definition="Ground"/>
+        <Tile index="3801" definition="Ground"/>
+        <Tile index="3802" definition="Ground"/>
+        <Tile index="3803" definition="Ground"/>
+        <Tile index="3893" definition="Ground"/>
+        <Tile index="3894" definition="Ground"/>
+        <Tile index="3895" definition="Ground"/>
+        <Tile index="3896" definition="Ground"/>
+        <Tile index="3897" definition="Ground"/>
+        <Tile index="3898" definition="Ground"/>
+        <Tile index="3899" definition="Ground"/>
+        <Tile index="3900" definition="Ground"/>
+        <Tile index="3901" definition="Ground"/>
+        <Tile index="3902" definition="Ground"/>
+        <Tile index="3903" definition="Ground"/>
+        <Tile index="3904" definition="Ground"/>
+        <Tile index="3905" definition="Ground"/>
+        <Tile index="3906" definition="Ground"/>
+        <Tile index="3907" definition="Ground"/>
+        <Tile index="3908" definition="Ground"/>
+        <Tile index="3909" definition="Ground"/>
+        <Tile index="3910" definition="Ground"/>
+        <Tile index="3911" definition="Ground"/>
+        <Tile index="3912" definition="Ground"/>
+        <Tile index="3913" definition="Ground"/>
+        <Tile index="3914" definition="Ground"/>
+        <Tile index="3915" definition="Ground"/>
+        <Tile index="3916" definition="Ground"/>
+        <Tile index="3917" definition="Ground"/>
+        <Tile index="3918" definition="Ground"/>
+        <Tile index="3919" definition="Ground"/>
+        <Tile index="3920" definition="Ground"/>
+        <Tile index="3921" definition="Ground"/>
+        <Tile index="3922" definition="Ground"/>
+        <Tile index="3923" definition="Ground"/>
+        <Tile index="3924" definition="Ground"/>
+        <Tile index="3925" definition="Ground"/>
+        <Tile index="3926" definition="Ground"/>
+        <Tile index="3927" definition="Ground"/>
+        <Tile index="3928" definition="Ground"/>
+        <Tile index="3929" definition="Ground"/>
+        <Tile index="3930" definition="Ground"/>
+        <Tile index="3931" definition="Ground"/>
+        <Tile index="4021" definition="Ground"/>
+        <Tile index="4022" definition="Ground"/>
+        <Tile index="4023" definition="Ground"/>
+        <Tile index="4024" definition="Ground"/>
+        <Tile index="4025" definition="Ground"/>
+        <Tile index="4026" definition="Ground"/>
+        <Tile index="4027" definition="Ground"/>
+        <Tile index="4028" definition="Ground"/>
+        <Tile index="4029" definition="Ground"/>
+        <Tile index="4030" definition="Ground"/>
+        <Tile index="4031" definition="Ground"/>
+        <Tile index="4032" definition="Ground"/>
+        <Tile index="4033" definition="Ground"/>
+        <Tile index="4034" definition="Ground"/>
+        <Tile index="4035" definition="Ground"/>
+        <Tile index="4036" definition="Ground"/>
+        <Tile index="4037" definition="Ground"/>
+        <Tile index="4038" definition="Ground"/>
+        <Tile index="4039" definition="Ground"/>
+        <Tile index="4040" definition="Ground"/>
+        <Tile index="4041" definition="Ground"/>
+        <Tile index="4042" definition="Ground"/>
+        <Tile index="4043" definition="Ground"/>
+        <Tile index="4044" definition="Ground"/>
+        <Tile index="4045" definition="Ground"/>
+        <Tile index="4046" definition="Ground"/>
+        <Tile index="4047" definition="Ground"/>
+        <Tile index="4048" definition="Ground"/>
+        <Tile index="4049" definition="Ground"/>
+        <Tile index="4050" definition="Ground"/>
+        <Tile index="4051" definition="Ground"/>
+        <Tile index="4052" definition="Ground"/>
+        <Tile index="4053" definition="Ground"/>
+        <Tile index="4054" definition="Ground"/>
+        <Tile index="4055" definition="Ground"/>
+        <Tile index="4056" definition="Ground"/>
+        <Tile index="4057" definition="Ground"/>
+        <Tile index="4058" definition="Ground"/>
+        <Tile index="4059" definition="Ground"/>
+    </Grid>
+    <SpawnData>
+        <EntitySpawn type="0" pos="55.500000, 32.000000"/>
+        <EntitySpawn type="1" pos="66.500000, 32.000000"/>
+        <EntitySpawn type="1" pos="72.500000, 32.000000"/>
+        <EntitySpawn type="1" pos="75.500000, 32.000000"/>
+        <EntitySpawn type="3" pos="88.500000, 32.000000"/>
+        <EntitySpawn type="2" pos="64.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="65.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="66.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="67.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="68.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="69.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="70.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="71.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="72.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="73.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="74.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="75.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="76.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="77.500000, 36.000000"/>
+        <EntitySpawn type="2" pos="77.500000, 35.000000"/>
+        <EntitySpawn type="2" pos="78.500000, 35.000000"/>
+    </SpawnData>
+</Level>

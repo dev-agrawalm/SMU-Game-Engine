@@ -1,0 +1,5 @@
+<Entities>
+   <Entity type="SpawnPoint" 
+      position="4, 6"
+      allowedPlayers="all" />
+</Entities>

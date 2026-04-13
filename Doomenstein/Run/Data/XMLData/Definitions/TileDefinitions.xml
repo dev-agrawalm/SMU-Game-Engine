@@ -1,0 +1,39 @@
+<TileDefinitions>
+	<TileDefinition name="Air"
+                    isSolid="false"
+    />
+	<!--TileDefinition name="StoneFloor"
+                    isSolid="false"
+                    floorMaterial="Stone"
+                    ceilingMaterial="WoodTile"
+    /-->
+	<TileDefinition name="StoneFloor"
+                    isSolid="false"
+                    floorMaterial="Stone"
+                    ceilingMaterial="WoodTile"
+    />
+	<TileDefinition name="WoodFloor"
+                    isSolid="false"
+                    floorMaterial="WoodFloor"
+                    ceilingMaterial="WoodTile"
+    />
+	<TileDefinition name="BrickWall"
+                    isSolid="true"
+                    wallMaterial="Brick"
+    />
+	<TileDefinition name="WoodWall"
+                    isSolid="true"
+                    wallMaterial="WoodWall"
+    />
+	<TileDefinition name="OpenGrass"
+                    isSolid="false"
+                    floorMaterial="Grass"
+                    ceilingMaterial="CaveStone"
+    />
+	<TileDefinition name="OpenDirt"
+                    isSolid="false"
+                    floorMaterial="Dirt"
+                    ceilingMaterial="CaveStone"
+    />
+
+</TileDefinitions>

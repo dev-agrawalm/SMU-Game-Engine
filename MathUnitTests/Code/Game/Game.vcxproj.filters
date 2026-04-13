@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{efb9dc5d-8020-40b6-a326-e019abdab5f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_MP1A1.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_Custom.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_MP1A2.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_MP1A3.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_MP1A4.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_MP1A6.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_MP2A1.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests_MP2A2.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_MP1A1.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_Custom.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_MP1A2.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_MP1A3.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_MP1A4.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_MP1A6.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_MP2A1.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests_MP2A2.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

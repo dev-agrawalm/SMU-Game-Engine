@@ -1,0 +1,32 @@
+<GameConfig
+	
+	windowAspect		="2.0"
+	windowTitle			="Doomenstein"
+	uiCamOrthoSizeX		="1800.0"
+	uiCamOrthoSizeY		="900.0"
+	worldCamOrthoSizeX	="2.0"
+	worldCamOrthoSizeY	="2.0"
+	
+	defaultMap = "TestMap"
+	
+	playerSpeed = "5.0"
+	playerHudHeight = "720.0"
+	playerHUDImage ="Data/Images/Hud_Base.png"
+	playerControllerSpeed="2.0"
+	damageTintDuration ="1.5"
+	deathTintDuration ="0.5"
+	playerMouseSensitivity = "0.05"
+	playerJoystickSensitivity ="5.0"
+	playerJoystickSensitivityEditorMode ="20.0"
+	
+	gameModeDuration	="45.0"
+	playerRespawnTime	="1.0"
+	maxDemonCount		="70"
+	demonSpawnTime		="0.5"
+	
+	attractMusicPath = "Data/Audio/Mick Gordon At Dooms Gate.mp3"
+	attractMusicVolume = "0.4"
+	
+	playmodeMusicPath = "Data/Audio/Mick Gordon  The Only Thing They Fear Is You.mp3"
+	playmodeMusicVolume = "0.7"
+/>

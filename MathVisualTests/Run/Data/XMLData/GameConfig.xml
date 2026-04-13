@@ -1,0 +1,24 @@
+<GameConfig
+	
+	windowAspect		="2.0"
+	windowTitle			="MathVisualTests"
+	
+	worldSizeX			="200.0"
+	worldSizeY			="100.0"
+	uiCamOrthoSizeX		="1600.0"
+	uiCamOrthoSizeY		="800.0"
+	orthoZoomSpeed		="1.05"
+	
+	fov = "60.0"
+	zNear = "0.1"
+	zFar = "100"
+	
+	raycast3DLength = "10.0"
+	
+	biiliards2DRaycastSpeed = "25.0"
+	billiards2DHitBumperTint = "75,75,255"
+	biiliards2DBilliardRadius ="3.0"
+	
+	pachinkoGravity =" 75.0"
+	pachikoPhysicsTimeStep ="0.01"
+/>

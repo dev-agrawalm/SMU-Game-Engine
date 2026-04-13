@@ -1,0 +1,35 @@
+<SpawnInfos>
+	<SpawnInfo actor="SpawnPoint"
+	   faction="marineSpawn"
+	   position="4,5,0"
+	   facing="45" />
+
+	<SpawnInfo actor="SpawnPoint"
+	   faction="marineSpawn"
+	   position="8,5,0"
+	   facing="45" />
+
+	<SpawnInfo actor="SpawnPoint"
+	   faction="demonSpawn"
+	   position="78,78,0"
+	   facing="225" />
+
+	<SpawnInfo actor="SpawnPoint"
+	   faction="demonSpawn"
+	   position="18, 72,0"
+	   facing="270" />
+
+	<SpawnInfo actor="SpawnPoint"
+	   faction="demonSpawn"
+	   position="64.5, 15,0"
+	   facing="180" />
+
+	<SpawnInfo actor="Pinky"
+	   faction="demons"
+	   position="45,21,0" />
+
+	<SpawnInfo actor="Pinky"
+	   faction="demons"
+	   position="60,45,0" />
+
+</SpawnInfos>

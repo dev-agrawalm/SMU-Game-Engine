@@ -1,0 +1,41 @@
+<EnemyDefinitions>
+	<Definition
+		name = "enemy1"
+		splineName ="Spiral"
+		weaponName = "enemyBlaster"
+		spriteCellCoords ="0, 1"
+		spriteSize ="7.0"
+		points = "10"
+		speed ="0.2"
+		physicsRadius ="2.8"
+		cosmeticRadius ="5.0"
+		health ="5"
+		contactDamage ="2"
+		attackConeAngleDegree = "30.0" >
+
+		<Animation duration ="1.0">
+			<Frame spriteCellCoords = "0,1"/>
+			<Frame spriteCellCoords = "1,1"/>
+		</Animation>
+	</Definition>
+	
+	<Definition
+		name = "enemy3"
+		splineName ="Steps"
+		weaponName = "enemyShotgun"
+		spriteCellCoords ="0, 2"
+		spriteSize ="7.0"
+		points = "20"
+		speed ="0.2"
+		physicsRadius ="2.8"
+		cosmeticRadius ="5.0"
+		health ="15"
+		contactDamage ="2"
+		attackConeAngleDegree = "15.0">
+
+		<Animation duration ="1.0">
+			<Frame spriteCellCoords = "0,2"/>
+			<Frame spriteCellCoords = "1,2"/>
+		</Animation>
+	</Definition>
+</EnemyDefinitions>
