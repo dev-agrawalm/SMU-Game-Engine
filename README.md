@@ -10,7 +10,7 @@ Game engine developed by Manav Agrawal from 2021 to 2022 as part of SMU Guildhal
 **Engine**:          A static library for a game engine that features an input system, a 3D renderer, logging services, job system, math and physics libraries, networking and more\
 **FunWithCurves2D**: A 2D spline editor + retro arcade game with spaceships like Galaga\
 **Libra**:           A 2D twin-stick arcade tank combat game\
-**Manavcraft**:      A 3D procedurally generated game with a huge and persistent world, volumetric lighting, 3D physics based movement\
+**Manavcraft AKA Simple Miner**:      A 3D procedurally generated game with a huge and persistent world, volumetric lighting, 3D physics based movement\
 **MathUnitTests**:   A collection of unit tests to test the engine's math library\
 **MathVisualTests**: A collection of visual tests to test the engine's math library\
 **Protogame2D**:     An empty 2D project template\
