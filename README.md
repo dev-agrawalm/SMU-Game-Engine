@@ -1,6 +1,7 @@
 # SMU Game Engine
 Game engine developed by Manav Agrawal from 2021 to 2022 as part of SMU Guildhall's graduate program
 
+The game engine and game projects are all built using C++ 17, imgui, fmod, and directx11
 
 ## Project Key
 
